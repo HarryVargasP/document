@@ -1,0 +1,298 @@
+% Encoding: UTF-8
+
+@Article{(6)grau2001desarrollo,
+  author  = {Grau, Xavier Ferr{\'e} and Segura, Mar{\'\i}a Isabel S{\'a}nchez},
+  title   = {Desarrollo orientado a objetos con UML},
+  journal = {Facultad de Inform{\'a}tica--UPM, Articulo},
+  year    = {2001},
+  volume  = {3},
+}
+
+@Article{(8)sanz2015registro,
+  author  = {Sanz, Luis E Marcano},
+  title   = {Registro electr{\'o}nico de pacientes “DELFOS” en Cardiolog{\'\i}a y Cirug{\'\i}a Cardiovascular pedi{\'a}trica},
+  journal = {CorSalud},
+  year    = {2015},
+  volume  = {7},
+  number  = {1},
+}
+
+@MastersThesis{(13)borrallos2017implementacion,
+  author = {Borrallos, Ch{\'a}vez and Gabriel, Juan},
+  title  = {Implementaci{\'o}n de una aplicaci{\'o}n m{\'o}vil que permita obtener informaci{\'o}n de tres tr{\'a}mites de las instituciones p{\'u}blicas: Universidad T{\'e}cnica del Norte, Agencia Nacional de Tr{\'a}nsito (ANT) Dependencia Ibarra, Gobierno Aut{\'o}nomo Descentralizado (GAD) Ibarra, con el uso del Framework Phonegap},
+  school = {UniversidadTecnicalDelNorte},
+  year   = {2017},
+  type   = {{B.S.} thesis},
+}
+
+@Article{(10)cuadrado2015aplicacion,
+  author    = {Cuadrado, Salazar and Merry, Wesley},
+  title     = {Aplicaci{\'o}n web y la efectividad de la gesti{\'o}n bibliotecaria en la IEP Mundo Mejor de Chimbote},
+  journal   = {Universidad C{\'e}sar Vallejo},
+  year      = {2015},
+  publisher = {Universidad C{\'e}sar Vallejo},
+}
+
+@PhdThesis{(9)quezada2014aplicacion,
+  author = {Quezada Morales, Carlos Lorenzo and L{\'o}pez Hern{\'a}ndez, Gloria del Carmen and Alem{\'a}n, {\'A}lvarez and Alem{\'a}n, {\'A}lvarez},
+  title  = {Aplicaci{\'o}n M{\'o}vil bajo la plataforma Android para informe de Calificaciones y resultados de admisi{\'o}n de los Estudiantes de la Universidad Nacional Agraria, primer semestre a{\~n}o 2014},
+  school = {Universidad Nacional Aut{\'o}noma de Nicaragua, Managua},
+  year   = {2014},
+}
+
+@Electronic{(6)http://www.ortodoncianovasmile.com/blog/la-importancia-de-tus-citas/,
+}
+
+@MastersThesis{(1)zurita2016aplicacion,
+  author = {Zurita Gallo, Amarilis Vanessa},
+  title  = {Aplicaci{\'o}n Web en la gesti{\'o}n de servicios m{\'e}dicos para el consultorio de especialidades medireuma del Cant{\'o}n Quevedo},
+  school = {UNIANDES},
+  year   = {2016},
+  type   = {{B.S.} thesis},
+}
+
+@Book{(2)cuello2013disenando,
+  title     = {Dise{\~n}ando apps para m{\'o}viles},
+  publisher = {Jos{\'e} Vittone—Javier Cuello},
+  year      = {2013},
+  author    = {Cuello, Javier and Vittone, Jos{\'e}},
+  editor    = {Duque GiladoCatalina},
+}
+
+@Article{(3)ariza2017desarrollo,
+  author  = {Ariza Fl{\'o}rez, Edwin Mauricio and others},
+  title   = {Desarrollo de Una Aplicaci{\'o}n M{\'o}vil para la Visualizaci{\'o}n de Informaci{\'o}n de las Citas M{\'e}dicas de Un Paciente en Una Entidad de Salud},
+  journal = {RUID},
+  year    = {2017},
+}
+
+@Article{(4)acostarequisitos,
+  author  = {Acosta, Alain P{\'e}rez and Espino, Mailyn Moreno and Casamayor, Reinier Band{\'o}n},
+  title   = {Requisitos de un Dashboard orientado a metas con i*: un caso de estudio},
+  journal = {INGENIARE},
+  year    = {2016},
+}
+
+@Article{(5)vila2015centro,
+  author  = {Vila Ruiz, Txomin},
+  title   = {Centro de gesti{\'o}n de notificaciones Push para dispositivos m{\'o}viles basados en IOS y Android},
+  journal = {Ingeniería en Informática},
+  year    = {2015},
+}
+
+@Article{(12)aguado2015tendencias,
+  author    = {Aguado, Juan-Miguel and Mart{\'\i}nez, Inmaculada J and Ca{\~n}ete-Sanz, Laura},
+  title     = {Tendencias evolutivas del contenido digital en aplicaciones m{\'o}viles},
+  journal   = {El profesional de la informaci{\'o}n},
+  year      = {2015},
+  volume    = {24},
+  number    = {6},
+  pages     = {787--795},
+  publisher = {EPI SL, Barcelona, Spain},
+}
+
+@PhdThesis{(14)delia2017desarrollo,
+  author = {Del{\'\i}a, Lisandro Nahuel},
+  title  = {Desarrollo de aplicaciones m{\'o}viles multiplataforma},
+  school = {Facultad de Inform{\'a}tica},
+  year   = {2017},
+}
+
+@Article{(7)romero2015software,
+  author  = {Romero, Walter Daniel Zambrano and Altamirano, Gustavo Chafla and Zambrano, C{\'e}sar Armando Moreira and Rodr{\'\i}guez, Fabi{\'a}n Geovanny Cuzme},
+  title   = {SOFTWARE COMO SERVICIO DE CITAS M{\'E}DICAS EN L{\'I}NEA, UN MODELO APLICADO A LA SALUD},
+  journal = {Revista ESPAMCIENCIA},
+  year    = {2015},
+  volume  = {6},
+  number  = {1},
+}
+
+@Article{(15)3812385820081201,
+  author   = {Haeng-Kon, Kim},
+  title    = {Frameworks of Process Improvement for Mobile Applications.},
+  journal  = {Engineering Letters},
+  year     = {2008},
+  volume   = {16},
+  number   = {4},
+  pages    = {550 - 555},
+  issn     = {1816093X},
+  abstract = {Mobile application development belongs on the complicated, but quite regular software development environment that includes many different solutions possibilities in the development. The experiences from the mobile card game development lead to the development process that covers many distribution channels (different client platforms). Architecture and the readiness to react changes that were caused by technology requirement changes become one of the key points in successful development. Changes that came during the application development required quite clear architecture. By identifying, standardizing, and naming general process models, same models and code could be reused in several applications. In this paper we go through mobile development process and architectural structures and analysis of these with empirical mobile application development. We used different architectural views for analyzing mobile architectures and architecture role in development. The architecture and archi},
+  keywords = {DEVELOPMENT of application software, COMPUTER software development, MOBILE communication systems, MODEL-driven software architecture, MOBILE computing, Embedded Development Process, Embedded Software, Frameworks, MDA (Model Driven Development), Mobile Application, Mobile Architecture, Model},
+  url      = {https://search.ebscohost.com/login.aspx?direct=true&db=a9h&AN=38123858&lang=es&site=ehost-live},
+}
+
+@Article{(16)palade2016impacto,
+  author    = {Palade, Ion},
+  title     = {Impacto de los smartphones en el {\'a}mbito laboral},
+  journal   = {Universitatu Jaume},
+  year      = {2016},
+  publisher = {Universitat Jaume I},
+}
+
+@InProceedings{(17)mascheroni2016framework,
+  author    = {Mascheroni, Maximiliano Agust{\'\i}n and Irraz{\'a}bal, Emanuel},
+  title     = {Framework para la creaci{\'o}n y ejecuci{\'o}n de pruebas automatizadas sobre servicios REST},
+  booktitle = {XXII Congreso Argentino de Ciencias de la Computaci{\'o}n (CACIC 2016).},
+  year      = {2016},
+}
+
+@MastersThesis{(18)hidalgo2016estudio,
+  author = {Hidalgo Macas, Lorena Nataly and Acaro, Jim{\'e}nez and Edison, Milton},
+  title  = {Estudio Comparativo de los Servicios Web Restfull Jersey y SOAP JAX-WS para el Desarrollo de una Aplicaci{\'o}n Android con Wikitude Aplicada a la Gesti{\'o}n de Informaci{\'o}n Geolocalizada del Turismo de la Provincia de Chimborazo.},
+  school = {Escuela Superior Polit{\'e}cnica de Chimborazo},
+  year   = {2016},
+  type   = {{B.S.} thesis},
+}
+
+@Article{(19)gutierrez2014que,
+  author  = {Guti{\'e}rrez, Javier J},
+  title   = {?` Qu{\'e} es un framework web},
+  journal = {Available in: http://www. lsi. us. es/\~{} javierj/investigacion\_ficheros/Framework. pdf Accessed May},
+  year    = {2014},
+  volume  = {12},
+}
+
+@Article{(20)84917316032,
+  author   = {M., GUSTAVO and C., GERMÁN DARÍO and B., DANIEL ALBERTO},
+  title    = {DISEÑO DE FRAMEWORK WEB PARA EL DESARROLLO DINÁMICO DE APLICACIONES},
+  journal  = {Scientia Et Technica},
+  year     = {2010},
+  volume   = {XVI},
+  pages    = {178-183},
+  issn     = {0122-1701},
+  abstract = { El uso de Frameworks en la construcción de aplicaciones Web es un tema de reciente desarrollo e investigación en el área del software, y está muy relacionado con el concepto "Web 2.0" y los sistemas modernos de información. Este artículo presenta avances del proyecto que plantea el diseño y creación de un Framework web robusto y eficiente, implementado con herramientas de software libre, que facilite...},
+  keywords = {SGBD; Framework; Ingeniería Web; LDAP; ORM; Página Web dinámica; Patrón de diseño; WebApps.; DBMS; Design Pattern; Dynamic Website; Engineering Web; },
+  language = {Español},
+  url      = {http://www.redalyc.org/articulo.oa?id=84917316032},
+}
+
+@Book{(21)LearningTyS,
+  title     = {Learning TypeScript},
+  publisher = {Packt Publishing Ltd.},
+  year      = {2015},
+  author    = {Remo H. Jansen},
+  editor    = {Vivek Arora},
+}
+
+@Book{(22)Ionic,
+  title     = {Build Mobile Apps with Ionic 2 and Firebase},
+  publisher = {apress},
+  year      = {2017},
+  author    = {Fu Cheng},
+  editor    = {Fu Cheng},
+}
+
+@Book{(23)Angular2,
+  title     = {Learning Angular 2},
+  publisher = {Packt Publishing},
+  year      = {2016},
+  author    = {Pablo Deeleman},
+  editor    = {Mohita Vyas},
+}
+
+@Book{(24)ApacheCordova,
+  title     = {Apache Cordova in Action},
+  publisher = {Manning Publications Co},
+  year      = {2015},
+  author    = {Raymond K. Camden},
+  editor    = {Helen Stergius},
+}
+
+@Book{(25)Node.js,
+  title     = {Node.js in Practice},
+  publisher = {Manning Publications Co.},
+  year      = {2014},
+  author    = {Alex R. Young, Marc Harter},
+  editor    = {Cynthia Kane},
+}
+
+@Article{(26)MVC,
+  author  = {Gonz{\'a}lez, Yanette D{\'\i}az and Romero, Yenisleidy Fern{\'a}ndez},
+  title   = {Patr{\'o}n Modelo-Vista-Controlador.},
+  journal = {Revista Telem@ tica},
+  year    = {2012},
+  volume  = {11},
+  number  = {1},
+  pages   = {47--57},
+}
+
+@Article{(27)NoSQL,
+  author   = {C., Alexander and G., Juan Sebastián and C., Mauro},
+  title    = {Utilidad y funcionamiento de las bases de datos NoSQL},
+  journal  = {Facultad de Ingeniería},
+  year     = {2012},
+  volume   = {21},
+  pages    = {21-32},
+  issn     = {0121-1129},
+  abstract = { Reflexiona sobre las bases de datos NoSQL, describiéndolas y analizando el porqué de su importancia y actualidad; además recopila y define algunas características de este tipo de base de datos, para revisar las taxonomías más importantes y analizar el uso conjunto de tecnologías NoSQL y relacionales, con el fin de proporcionar un punto de partida para los trabajos en esta área por parte de investigadores. ...},
+  keywords = {NoSQL; Bases de datos; Arquitectura en bases de datos.; Databases; Database Architecture; },
+  language = {Español},
+  url      = {http://www.redalyc.org/articulo.oa?id=413940772003},
+}
+
+@Article{(28)Firebase,
+  author    = {Kumar, KN and Akhi, Kailasa and Gunti, Sai Kumar and Reddy, M},
+  title     = {Implementing smart home using firebase},
+  journal   = {International Journal of Research in Engineering and Applied Sciences},
+  year      = {2016},
+  volume    = {6},
+  number    = {10},
+  pages     = {193--198},
+  publisher = {Euro Asia Research and Development Association},
+}
+
+@Article{(29)rojas2015registro,
+  author    = {Rojas Mezarina, Leonardo and Medina, Cedamanos and Alicia, Carmen and Vargas Herrera, Javier},
+  title     = {Registro nacional de historias cl{\'\i}nicas electr{\'o}nicas en Per{\'u}},
+  journal   = {Revista Peruana de Medicina Experimental y Salud P{\'u}blica},
+  year      = {2015},
+  volume    = {32},
+  pages     = {395--396},
+  publisher = {SciELO Public Health},
+}
+
+@Misc{(30)MisPacientes,
+  author = {F\&E System Apps},
+  title  = {Mis Pacientes},
+  year   = {2018},
+  url    = {https://itunes.apple.com/mx/app/mis-pacientes/id415225659?mt=8},
+}
+
+@Misc{(31)iDent,
+  author = {Pavel Zryumov},
+  title  = {iDent Software odontol{\'o}gico},
+  year   = {2017},
+  url    = {https://itunes.apple.com/mx/app/ident-software-odontol%C3%B3gico/id1110122000?mt=8},
+}
+
+@Misc{(32)ToothApp,
+  author = {Vintom Toothcare},
+  title  = {ToothApp - Dental Clinic Software + Dental Chat},
+  year   = {2018},
+  url    = {https://play.google.com/store/apps/details?id=com.tooth.app&hl=es},
+}
+
+@Misc{(33)DentistManager,
+  author = {Spatialia},
+  title  = {Dentist Manager},
+  year   = {2016},
+  url    = {https://play.google.com/store/apps/details?id=org.spatialia.dentist&hl=es_419},
+}
+
+@Article{(34)garcia2018metodologias,
+  author    = {Garc{\'\i}a-Holgado, A and Garc{\'\i}a-Pe{\~n}alvo, FJ},
+  title     = {Metodolog{\'\i}as de Ingenier{\'\i}a de Software},
+  journal   = {Universidad de Salamanca},
+  year      = {2018},
+  publisher = {Grupo GRIAL},
+  url       = {https://repositorio.grial.eu/bitstream/grial/1149/1/4.%20Metodologia.pdf},
+}
+
+@InProceedings{(35)cordero2017scrum,
+  author    = {Cordero, Andrea Plaza and Argudo, Miguel Arcos and Chasi, Rodolfo Bojorque},
+  title     = {SCRUM en la educaci{\'o}n: Caso de estudio como m{\'e}todo de trabajo},
+  booktitle = {INCISCOS 2016},
+  year      = {2017},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}

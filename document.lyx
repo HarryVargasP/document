@@ -1,0 +1,1930 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass IEEEtran
+\options journal
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{titlepage}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align left
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align left
+\begin_inset Graphics
+	filename ../../../../Downloads/Documento Titulación/Logofit.png
+	lyxscale 7
+	scale 8
+
+\end_inset
+
+
+\begin_inset space \hspace{}
+\length 12cm
+\end_inset
+
+
+\begin_inset Graphics
+	filename ../../../../Downloads/Documento Titulación/Logofit.png
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size huge
+Universidad de Montemorelos
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size larger
+\begin_inset VSpace 1cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size larger
+Facultad de Ingeniería y Tecnología
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size larger
+Ingeniería en Sistemas Computacionales
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size larger
+\begin_inset VSpace 1.8cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size huge
+Desarrollo de software para el reconocimiento de edificios utilizando Deep
+ Learning
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size larger
+\begin_inset VSpace 1.8cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size larger
+Harry Daniel Vargas Pérez
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size larger
+1150533
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size larger
+\begin_inset VSpace 1.8cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size larger
+Asesor: Ing.
+ Ignacio Cruz Domínguez
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size larger
+\begin_inset VSpace 1.8cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size larger
+Montemorelos, Nuevo León, México
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size larger
+22 de abril de 2021
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{titlepage}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{titlepage}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size larger
+\begin_inset VSpace 8.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+renewcommand{
+\backslash
+abstractname}{Resumen}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Abstract
+
+\color black
+Aquí va el abstract.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+renewcommand
+\backslash
+IEEEkeywordsname{Palabras Clave}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Keywords
+Keywords
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{titlepage}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{titlepage}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+renewcommand{
+\backslash
+contentsname}{
+\backslash
+'Indice}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{titlepage}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Title
+Desarrollo de software para el reconocimiento de edificios utilizando Deep
+ Learning
+\end_layout
+
+\begin_layout Author
+Harry
+\begin_inset space ~
+\end_inset
+
+Daniel
+\begin_inset space ~
+\end_inset
+
+Vargas
+\begin_inset space ~
+\end_inset
+
+Pérez e Ignacio
+\begin_inset space ~
+\end_inset
+
+Cruz
+\begin_inset space ~
+\end_inset
+
+Domínguez
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Harry
+\begin_inset space ~
+\end_inset
+
+Vargas es estudiante de la Facultad de Ingeniería y Tecnología en la Universidad
+ de Montemorelos, e-mail: 
+\begin_inset CommandInset href
+LatexCommand href
+target "1150533@alumno.um.edu.mx"
+type "mailto:"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Ignacio
+\begin_inset space ~
+\end_inset
+
+Cruz, Ing.
+ es profesor en la Facultad de Ingeniería y Tecnología en la Universidad
+ de Montemorelos., Nuevo Léon, Mexico, e-mail: 
+\begin_inset CommandInset href
+LatexCommand href
+target "icruz@um.edu.mx"
+type "mailto:"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Special Paper Notice
+Facultad de Ingeniería y Tecnología, Universidad de Montemorelos, México
+\end_layout
+
+\begin_layout Section
+INTRODUCCIÓN
+\end_layout
+
+\begin_layout Subsection
+Antecedentes
+\end_layout
+
+\begin_layout Standard
+Diariamente las empresas reciben multitud de visitas, algunas de ellas de
+ manera personal, otras de tipo empresarial y otras más de tipo comercial,
+ ya sea en mayor o menor medida.
+ Independientemente de su formalidad y relevancia, la empresa puede aprovechar
+ estas visitas para generar cercanía y potenciar su marca con posibles clientes
+ a futuro dependiendo del trato y la impresión que causen.
+ En beneficio de la imagen de la empresa, las visitas deben ser atendidas
+ de acuerdo a las características propias de la empresa u organización para
+ dar una impresión correcta del funcionamiento de la misma.
+ Para atender a las visitas, las organizaciones dedican distintos recursos
+ como tiempo, dinero y esfuerzo, además de requerir una preparación del
+ recurso humano para poder brindar una atención de calidad y adecuada según
+ sea la visita que reciban.
+ A los visitantes les interesa la información acerca de lo que observan
+ durante el recorrido, como los principales edificios de la organización
+ o los espacios en los que se encuentran.
+ Distintas universidades (agregar referencias) también ofrecen recorridos
+ por sus instalaciones para que posibles nuevos alumnos se interesen en
+ realizar su preparación académica con ellos; además de otros recorridos
+ a grupos en espacios como bibliotecas o facultades específicas que dan
+ más ayuda al interesado o interesados a poder hacer una evaluación más
+ completa e integral de la universidad que están visitando.
+ También algunas universidades están obtando por ofrecer un recorrido virtual
+ a través de sus instalaciones 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "UNAMvirtual,IBEROvirtual,INTERvirtual"
+literal "true"
+
+\end_inset
+
+, esta es una gran oportunidad que puede ser aprovechada más en el tiempo
+ que se está viviendo debido al confinamiento por causa del COVID-19, este
+ recorrido atraviesa los lugares más referentes del plantel mediante un
+ video o un mapa utilizando Google Maps para poder desplazarse sobre las
+ áreas determinadas.
+ Existen plataformas como civitatis 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "civitatis"
+literal "true"
+
+\end_inset
+
+ que ofrecen recorridos a lugares alrededor del mundo de manera precencial
+ que incluyen visitas a universidades, museos, zonas turísticas, entre otras.
+ Dicha plataforma también está bajo las recomendaciones e instrucciones
+ de parte del personal médico en cada lugar.
+ 
+\end_layout
+
+\begin_layout Subsection
+Definición del problema
+\end_layout
+
+\begin_layout Standard
+Con la Revolución Industrial 4.0 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "industria4.0"
+literal "true"
+
+\end_inset
+
+, la necesidad de implementar tecnología en las organzaciones ha impulsado
+ también al Internet de las Cosas (IoT por sus siglas en inglés 
+\emph on
+Internet of Things
+\emph default
+), donde básicamente todo con lo que nos relacionamos estaría conectado
+ a internet, almacenando datos a la nube 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "IoT"
+literal "true"
+
+\end_inset
+
+.
+ Al realizar un recorrido es interesante e importante para el visitante,
+ obtener información y realimentación acerca de los principales lugares
+ que se visitan.
+ En este proyecto se desarrolla una aplicación móvil que provee información
+ y realimentación acerca de los principales edificios e instalaciones de
+ la Universidad de Montemorelos.
+ En esta aplicación el usuario hace uso de la cámara para poder capturar
+ una imagen del edificio sobre el cual se requiere información y tomarla
+ como entrada.
+ Para proveer ésta realimentación se utilizan técnicas de reconocimiento
+ basadas en aprendizaje profundo 
+\emph on
+(Deep Learning)
+\emph default
+ para lograr una identificación aceptable.
+ La implementación de esta característica permite lograr una cercanía a
+ los valores e información importante de la institución.
+ La aplicación es relevante porque permite que los nuevos visitantes o grupo
+ de visitantes, puedan tener información adicional además de la provista
+ por el personal que guía el recorrido, el cual tiene que ser instruido
+ y capacitado previamente.
+ Este proceso requiere invertir tiempo de preparación en conocer bien los
+ lugares e historias.
+ En ocasiones, para el personal guía, puede resultar monótono repetir las
+ descripciones e información, para lo cual una aplicación no, además de
+ dar un plus tecnológico en una actividad que pareciera monótona hasta el
+ momento.
+\end_layout
+
+\begin_layout Subsection
+Justificación
+\end_layout
+
+\begin_layout Standard
+Aprovechando el auge y accesibilidad de los dispositivos móviles y basado
+ en la necesidad presentada, en este trabajo se desarrolla un software que
+ ayuda en la guía de recorridos, al identificar principales sitios, edificios
+ e instalaciones, tarea que es realizada por personal humano de manera continua.
+ Esta actividad se ve pausada momentáneamente debido al confinamiento impuesto
+ por las autoridades sanitaria por causa de la pandemia del COVID-19.
+ Se desarrolla una aplicación móvil que funcione en las plataformas de Android
+ y iOS, que permite identificar los departamentos y facultades dentro de
+ la institución utilizando algoritmos de Inteligencia Artificial y Deep
+ Learning para conseguir una predicción aceptable.
+ Ésta aplicación es útil para el departamento de promoción y reclutamiento
+ en la Universidad de Montemorelos al llevar a cabo su actividad de guía
+ que es realizada de forma recurrente, facilitando que los visitantes obtengan
+ la información de los edificios a partir de una entrada visual mediante
+ la cámara del dispositivo móvil.
+ La información provista por la aplicación móvil enriquece la experiencia
+ y la relación con la institución.
+ El visitante puede obtener información relevante, no sensible o pública
+ de cada departamento o facultad como horario de atención, teléfono de contacto,
+ las carreras con las que cuenta cierta facultad, historia, entre otras.
+\end_layout
+
+\begin_layout Subsection
+Objetivos
+\end_layout
+
+\begin_layout Subsubsection
+Objetivos generales
+\end_layout
+
+\begin_layout Standard
+Se espera obtener una aplicación que permita ofrecer una ayuda a una persona
+ que desconozca la Universidad de Montemorelos, sumado a esto la disminución
+ del trabajo de acompañamiento en los recorridos y la oportunidad de hacer
+ más didáctico y tecnológico el recorrido a la institución.
+ Esta innovación permitiría a la universidad contar con una aplicación descripti
+va de sus instalaciones, además de la oportunidad de compartir la información
+ específica de los horarios de atención en cada una e información de contacto.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Objetivos específicos
+\end_layout
+
+\begin_layout Itemize
+Identificar instalaciones y edificios importantes del campus de la Universidad
+ de Montemorelos mediante técnicas de Deep Learning, a partir de la entrada
+ proveniente de la cámara del dispositivo móvil del usuario.
+ 
+\end_layout
+
+\begin_layout Itemize
+Construir un clasificador que toma la imagen y predice a qué facultad o
+ edificio corresponde.
+ 
+\end_layout
+
+\begin_layout Itemize
+Describir el proceso de clasificación e identificación, además de proveer
+ medidas del rendimiento y pruebas.
+\end_layout
+
+\begin_layout Itemize
+Desarrollar una aplicación que utiliza el modelo obtenido utilizando React
+ Native.
+ 
+\end_layout
+
+\begin_layout Itemize
+Describir las herramientas de desarrollo y el proceso llevado a cabo en
+ la integración 
+\end_layout
+
+\begin_layout Section
+FUNDAMENTOS TEÓRICOS
+\end_layout
+
+\begin_layout Subsection
+MARCO TEÓRICO
+\end_layout
+
+\begin_layout Standard
+\begin_inset Phantom Phantom
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Inteligencia Artificial
+\end_layout
+
+\begin_layout Standard
+\SpecialChar ligaturebreak
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Phantom Phantom
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+La Inteligencia Artificial (IA) es parte de las ciencias de la computación
+ que se encarga de los diseños de sistemas inteligentes, los cuales contienen
+ características que son relacionadas con la inteligencia en la conducta
+ humana 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Marino2016"
+literal "true"
+
+\end_inset
+
+.
+ La IA ha tenido múltiples aplicaciones no solo en la informática o robótica,
+ también está presente actualmente en su implementación en áreas empresariales
+ para poder realizar predicciones de resultados en tiempo real y también
+ para procesar gran cantidad de datos.
+ A su vez, la inteligencia artificial ha tenido un gran progreso gracias
+ al aumento en los recursos económicos, tecnológicos y de datos para poder
+ trabajar y realizar más investigaciones en este campo
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Orozco2018"
+literal "true"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Phantom Phantom
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Redes Neuronales
+\end_layout
+
+\begin_layout Standard
+\SpecialChar ligaturebreak
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Phantom Phantom
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Una de las definiciones que se puede utilizar para dar significado a las
+ redes neuronales artificiales puede ser: “Una red neuronal es un modelo
+ computacional, paralelo, compuesto de unidades procesadoras adaptativas
+ con una alta interconexión entre ellas” 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "redesNeuronales"
+literal "true"
+
+\end_inset
+
+ Básicamente la comparativa con una red neuronal biológica se refleja en
+ la distribución de las operaciones que se realizan en el conjunto de los
+ elementos básicos que representan las neuronas.
+ Estas neuronas están interconectadas entre sí y se denominan pesos sinápticos,
+ estos pesos varían con el paso del tiempo de entrenamiento.
+ Así se puede definir el aprendizaje de una red neuronal como el proceso
+ en el cual se modifican las conexiones entre las neuronas para poder realizar
+ un objetivo definido.
+ 
+\end_layout
+
+\begin_layout Standard
+Las redes neuronales artificiales tienen una topología que consiste en la
+ forma en que las neuronas están organizadas, de manera que crean agrupaciones
+ (capas) más cerca de la entrada o de la salida de la red.
+ Algunos de los parámetros fundamentales en estas redes son el número de
+ capas formadas, la cantidad de neuronas en cada capa, el grado de conectividad
+ y el tipo de conexiones entre las neuronas 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Matich2001"
+literal "true"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Phantom Phantom
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Deep Learning
+\end_layout
+
+\begin_layout Standard
+\SpecialChar ligaturebreak
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Phantom Phantom
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+El 
+\emph on
+deep learning 
+\emph default
+(aprendizaje profundo) se asocia a la idea de 
+\begin_inset Quotes eld
+\end_inset
+
+imitar el celebro a partir del uso de hardware y software, para crear una
+ inteligencia artificial pura
+\begin_inset Quotes erd
+\end_inset
+
+, la cual usa una capacidad de abstracción jerárquica para poder separar
+ los datos de entrada y poder obtener características de los datos de un
+ nivel de complejidad alto 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "DeepLearning2015"
+literal "true"
+
+\end_inset
+
+.
+ En otra definición más sencilla de entender, el deep learning es el aprendizaje
+ que una máquina puede hacer para cumplir con un determinado objetivo, obteniend
+o datos ocultos o profundos desde una red neuronal 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "deep2019"
+literal "true"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Phantom Phantom
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Tensorflow
+\end_layout
+
+\begin_layout Standard
+\SpecialChar ligaturebreak
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Phantom Phantom
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Tensorflow 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "TFwebsite"
+literal "true"
+
+\end_inset
+
+ es una librería de software de código abierto que es usada para implementar
+ sistemas de aprendizaje automático 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "TFbook"
+literal "true"
+
+\end_inset
+
+.
+ Esta plataforma fue desarrollada por Google para compartir con otros investigad
+ores y que desarrollen sistemas capaces de crear y entrenar redes neuronales
+ para reconocer patrones; además de que provee distintas herramientas, librerías
+ y recursos de la comunidad para poder realizar innovaciones en el campo
+ del aprendizaje automático.
+ Tensorflow es capaz de ser utilizado en distintos lenguajes de programación;
+ en esta investigación es utilizado con el lenguaje Python.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Phantom Phantom
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Python
+\end_layout
+
+\begin_layout Standard
+\SpecialChar ligaturebreak
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Phantom Phantom
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Python 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "PYTHONwebsite"
+literal "true"
+
+\end_inset
+
+ es un lenguaje dinámico y fuertemente tipado, además es orientado a objetos
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "TFbook"
+literal "true"
+
+\end_inset
+
+.
+ Python presenta ventajas ante otros lenguajes de programación como:
+\end_layout
+
+\begin_layout Itemize
+Es un lenguaje expresivo, el código suele ser más corto que utilizando otros
+ lenguajes, además de ser considerado un lenguaje de alto nivel.
+\end_layout
+
+\begin_layout Itemize
+La lectura del código resulta fácilmente legible, ya que su sintaxis permite
+ escribir de manera elegante.
+\end_layout
+
+\begin_layout Itemize
+Python posee múltiples estructuras de datos que pueden ser utilizadas de
+ manera simple.
+\end_layout
+
+\begin_layout Standard
+Estas son algunas de las ventajas que presenta trabajar con Python, además
+ de su continua actualización debido al desarrollo de mantenimiento que
+ tiene 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "PYTHONbook"
+literal "true"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Phantom Phantom
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Jupyter Notebook
+\end_layout
+
+\begin_layout Subsubsection
+Métricas de Evaluación
+\end_layout
+
+\begin_layout Standard
+\SpecialChar ligaturebreak
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Phantom Phantom
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Accuracy
+\end_layout
+
+\begin_layout Standard
+Loss
+\end_layout
+
+\begin_layout Standard
+\begin_inset Phantom Phantom
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Node.js
+\end_layout
+
+\begin_layout Standard
+\SpecialChar ligaturebreak
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Phantom Phantom
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Node.js es un entorno de E/S asíncrono basado en eventos que utiliza el motor
+ de JavaScript V8 de Google.
+ Entre sus características destaca que es de código abierto y multiplataforma,
+ es decir, que puede ser utilizado por distintos sistemas como Windows,
+ Linux, MacOS, entre otros.
+ El lenguaje utilizado en Node.js es JavaScript puro, con la ventaja que
+ permite usar dicho lenguaje del lado del cliente y también del servidor.
+ 
+\end_layout
+
+\begin_layout Standard
+Express.js es un marco web utilizado en el desarrollo de aplicaciones web
+ minimalistas y comúnmente utilizado para la creación de APIs 
+\emph on
+(Application Programming Interface)
+\emph default
+, ya que crea un servidor de HTTP que permite habilitar un puerto para la
+ comunicación.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Phantom Phantom
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+API REST
+\end_layout
+
+\begin_layout Standard
+\SpecialChar ligaturebreak
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Phantom Phantom
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Phantom Phantom
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Base de Datos noSQL
+\end_layout
+
+\begin_layout Standard
+\begin_inset Phantom Phantom
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+F
+\end_layout
+
+\begin_layout Standard
+\begin_inset Phantom Phantom
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+MongoDB
+\end_layout
+
+\begin_layout Standard
+\SpecialChar ligaturebreak
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Phantom Phantom
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+F
+\end_layout
+
+\begin_layout Standard
+\begin_inset Phantom Phantom
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Heroku
+\end_layout
+
+\begin_layout Standard
+\SpecialChar ligaturebreak
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Phantom Phantom
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+F
+\end_layout
+
+\begin_layout Standard
+\begin_inset Phantom Phantom
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+React
+\end_layout
+
+\begin_layout Standard
+\SpecialChar ligaturebreak
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Phantom Phantom
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+F
+\end_layout
+
+\begin_layout Standard
+\begin_inset Phantom Phantom
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+F
+\end_layout
+
+\begin_layout Standard
+\begin_inset Phantom Phantom
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+ESTADO DEL ARTE 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Phantom Phantom
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+DESARROLLO 
+\end_layout
+
+\begin_layout Standard
+Para el desarrollo de este proyecto se dividieron en etapas para tener entregabl
+es del desarrollo de manera controlada.
+\end_layout
+
+\begin_layout Standard
+A continuación, se muestran los siguientes puntos para el desarrollo del
+ proyecto: 
+\end_layout
+
+\begin_layout Subsection
+Creación del dataset
+\end_layout
+
+\begin_layout Standard
+Para poder crear un modelo de inteligencia artificial capaz de reconocer
+ los edificios en la Universidad de Montemorelos, es necesario previamente
+ recolectar imágenes que el modelo necesitará para poder entrenarse y ser
+ capaz de reconocer edificios.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Recolección de imágenes
+\end_layout
+
+\begin_layout Standard
+Las imágenes utilizadas son de la fachada de los edificios como las facultades,
+ departamentos y otros espacios importantes, esto porque es lo que el usuario
+ verá cuando desee saber una predicción del lugar.
+ Se hizo la recolección de N imágenes de cada edificio (clase), siendo N
+ edificios reconocidos.
+ Esto hace un total de N imágenes capturadas para crear el modelo.
+ Estas imágenes son fotografías tomadas por un dispositivo móvil (iPhone
+ 12 Pro Max), esto debido a que el modelo sería utilizado en una aplicación
+ móvil y las imágenes con las que sería probado el modelo serían capturadas
+ por dispositivos móviles.
+ Todas las imágenes fueron tomadas en distintos ángulos, altura y condiciones
+ del clima en dirección a la fachada del edificio; todas las imágenes fueron
+ tomadas durante el día.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Organización de las imágenes
+\end_layout
+
+\begin_layout Standard
+Las imágenes fueron exportadas a formato .jpeg para poder ser utilizadas
+ en el modelo realizado.
+ Todas las imágenes fueron separadas en distintos directorios (carpetas),
+ el nombre de la carpeta es dependiendo del edificio al que pertenecen las
+ fotografías.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Phantom Phantom
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Creación de modelo de IA
+\end_layout
+
+\begin_layout Standard
+Para poder reconocer edificos en una imagen, se crea un modelo de clasificación
+ con redes neuronales convolucionales profundas.
+ A continuación se describe la manera en como fue creado y entrenado el
+ modelo:
+\end_layout
+
+\begin_layout Subsubsection
+Preparación del entorno Python
+\end_layout
+
+\begin_layout Standard
+Para la realización de esta investigación se creó un ambiente de desarrollo
+ en Anaconda 1.10.0.
+ Junto con esto, se installa la versión 3.7.10 del lenguaje de programación
+ Python que es utilizada en el desarrollo del código fuente, también la
+ versión 2.3.0 de tensorflow que permite la creación de la red neuronal, además
+ de instalar TensorflowJS en su versión 3.3.0 para exportar el modelo y ser
+ utilizado en la aplicación.
+ Para la escritura del código se utilizó la herramienta Jupyter Notebook
+ contenida por Anaconda.
+ Dentro de Tensorflow se encuentra la librería de Keras que ha sido utilizada
+ para hacer uso de las capas utilizadas en el modelo.
+\end_layout
+
+\begin_layout Standard
+El proyecto está estructurado en un directorio, en él se encuentra un archivo
+ .ipynb (formato de Jupyter Notebook) con el código que recolecta el dataset,
+ diseña la red neuronal y entrena el modelo que posteriormente es exportado.
+ En una carpeta al interior del directorio principal se encuentrar las imágenes
+ a utilizar para el entrenamiento del modelo, descrito previamente en el
+ apartado 3.1.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Carga del dataset
+\end_layout
+
+\begin_layout Standard
+Para cargar las imágenes contenidas en un folder dentro del directorio,
+ se utiliza una herramienta contenida dentro del paquete de keras, esta
+ herramienta permite particionar el total de imágenes recolectadas entre
+ un paquete de entrenamiento y uno de prueba, el procentaje de división
+ es 80% para entrenamiento y 20% para pruebas.
+ Dichas imágenes son tomadas en una dimensión fija (224 x 224).
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Estructura de la red neuronal
+\end_layout
+
+\begin_layout Standard
+Para crear la red neuronal se utiliza la estructura Secuencial contenida
+ dentro de Keras.
+ Se comienza con una capa donde se aplica una rotación, un zoom y una vuelta
+ aleatoriamente; posteriormente la siguiente capa cambia de tamaño a la
+ imagen para ajustarlo a las dimensiones utilizadas en el experimento (224
+ x 224 píxeles).
+ A continuación se utiliza una capa convolucional con 16 neuronas, esto
+ permite crear un núcleo de convolución con la salida de la capa anterior
+ como entrada y obtener un tensor de salidas, en otras palabras, la convolución
+ consiste en ir comparando la imagen de entrada con una matriz creada (kernel).
+ Dentro de esta capa se utiliza la función de activación ReLU 
+\emph on
+(rectified linear activation unit)
+\emph default
+, que básicamente lo que hace esta función es que si recibe cualquier número
+ negativo devuelve un 0 y si no, devulve ese número positivo, esto para
+ la comparación con el kernel.
+ Pasada la convolución se implementa una capa de 
+\emph on
+Max Pooling 2D 
+\emph default
+para hacer una reducción de las dimensiones de alto y ancho de la salida
+ de la capa convolucional anterior, pero no modifica su profundidad.
+ Posteriormente, se vuelve a crear otra capa convolucional seguida de una
+ capa de 
+\emph on
+max pooling
+\emph default
+, pero en esa ocasión con 32 neuronas en la capa convolucional.
+ A continuación, se implementa una capa 
+\emph on
+Dropout 
+\emph default
+para desactivar neuronas aleatorias y evitar que estas neuronas creen dependenci
+a entre sí, ayudando a que las neuronas no dependan entre sí.
+ Después, se agrega una capa 
+\emph on
+Flatten
+\emph default
+ para coonvertir los parámetros que vienen en forma de matriz a un arreglo
+ vector, para posteriormente crear una capa 
+\emph on
+Dense
+\emph default
+, es decir, completamente conectada con una dimensionalidad de salida de
+ 128 y utilizando también la función de activación ReLu.
+ Al final se agrega otra capa Dense con una salida del número total de clases
+ para obtener la predicción.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+Después de esto, el modelo es compilado utilizando la función de coste 
+\emph on
+
+\begin_inset Quotes eld
+\end_inset
+
+Sparse Categorical Crossentropy
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\emph default
+para poder tratar el valor entre el valor estimado y el valor real, esto
+ para optimizar el resultado.
+ Además, se usa el optimizador adam para la función del error y el 
+\emph on
+accuracy
+\emph default
+ (exactitud) como métrica de evaluación.
+\end_layout
+
+\begin_layout Subsubsection
+Pruebas
+\end_layout
+
+\begin_layout Standard
+Las pruebas realizadas implican mover los hiperparámetros con los que se
+ realiza el experimento, estos son las dimensiones de la imagen, el tamaño
+ del lote o el número de épocas de entrenamiento.
+ La variación de estos valores presenta un movimiento en los resultados
+ al momento de entrenar, los valores definidos y utilizados en el código
+ son los que dieron un mejor desempeño al momento de entrenar y evaluar
+ el modelo.
+\end_layout
+
+\begin_layout Subsubsection
+Entrenamiento del modelo
+\end_layout
+
+\begin_layout Standard
+Para el entrenamiento del modelo creado se tomaron los dos grupos de imágenes
+ creados, uno de entrenamiento y uno de prueba, además de indicar un total
+ de 15 épocas de entrenamiento.
+ El objetivo visible durante el entrenamiento debe ser que el 
+\emph on
+accuracy
+\emph default
+ incremente a medida que pasan las épocas y el error disminuya.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Exportación
+\end_layout
+
+\begin_layout Standard
+El modelo después de ser entrenado y que ofrezca buen desempeño en su evaluación
+, es exportado con una extensión .h5, esto ayudará a después convertirlo
+ a un modelo de TensorflowJS.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Phantom Phantom
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+API REST 
+\end_layout
+
+\begin_layout Standard
+Uno de los objetivos del proyecto es poder devolver al usuario información
+ adicional y específica de cada edificio, para llevar a cabo esta tarea,
+ se realizó una API Rest conectada a una base de datos que permitiría el
+ manejo y visualización de la información complementaria.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Creación
+\end_layout
+
+\begin_layout Standard
+Para la cración del API se 
+\end_layout
+
+\begin_layout Standard
+Heroku, Node.js, MongoDB
+\end_layout
+
+\begin_layout Subsubsection
+Consumo del servicio
+\end_layout
+
+\begin_layout Standard
+EndPoints
+\end_layout
+
+\begin_layout Standard
+Cómo acceder al servicio en el código react-native
+\end_layout
+
+\begin_layout Standard
+Formato (JSON)
+\end_layout
+
+\begin_layout Standard
+Extracción de la información
+\end_layout
+
+\begin_layout Standard
+\begin_inset Phantom Phantom
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Administración de ubicaciones
+\end_layout
+
+\begin_layout Subsubsection
+CRUD
+\end_layout
+
+\begin_layout Subsubsection
+Descripción de la información
+\end_layout
+
+\begin_layout Standard
+Qué información se almacena
+\end_layout
+
+\begin_layout Standard
+Uso del API
+\end_layout
+
+\begin_layout Standard
+\begin_inset Phantom Phantom
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Implementación del modelo en la app
+\end_layout
+
+\begin_layout Subsubsection
+Preparación del entorno react-native
+\end_layout
+
+\begin_layout Standard
+Se agregó paquetes de tensorflow
+\end_layout
+
+\begin_layout Standard
+Estructura
+\end_layout
+
+\begin_layout Subsubsection
+Importación del modelo
+\end_layout
+
+\begin_layout Standard
+Cargar el modelo
+\end_layout
+
+\begin_layout Subsubsection
+Configuración de la cámara
+\end_layout
+
+\begin_layout Standard
+Creación de la vista para capturar la imagen
+\end_layout
+
+\begin_layout Subsubsection
+Predicción
+\end_layout
+
+\begin_layout Standard
+Utilizar el modelo y devolver resultado
+\end_layout
+
+\begin_layout Subsubsection
+Despliegue de la información
+\end_layout
+
+\begin_layout Standard
+Retornar información adicional (consulta al API) junto con la predicción.
+\end_layout
+
+\begin_layout Subsubsection
+Condicionamiento
+\end_layout
+
+\begin_layout Standard
+Bloqueo de la función si no está dentro del área de la universidad
+\end_layout
+
+\begin_layout Standard
+\begin_inset Phantom Phantom
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+RESULTADOS 
+\end_layout
+
+\begin_layout Standard
+Evaluación del modelo
+\end_layout
+
+\begin_layout Standard
+Interfaces (antes de tomar la imágen, después de la predicción)
+\end_layout
+
+\begin_layout Section
+CONCLUSIONES 
+\end_layout
+
+\begin_layout Standard
+Content
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+renewcommand{
+\backslash
+refname}{Referencias}
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "Citas/citas documento"
+options "ieeetr"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage clearpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage clearpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage clearpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage clearpage
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
