@@ -104,9 +104,10 @@ status open
 \begin_layout Plain Layout
 \align left
 \begin_inset Graphics
-	filename ../../../../Downloads/Documento Titulación/Logofit.png
-	lyxscale 7
-	scale 8
+	filename logoUM.png
+	lyxscale 5
+	width 3cm
+	height 3cm
 
 \end_inset
 
@@ -118,7 +119,8 @@ status open
 
 \begin_inset Graphics
 	filename ../../../../Downloads/Documento Titulación/Logofit.png
-	scale 60
+	width 3cm
+	height 3cm
 
 \end_inset
 
@@ -168,7 +170,7 @@ Ingeniería en Sistemas Computacionales
 
 \series bold
 \size larger
-\begin_inset VSpace 1.8cm
+\begin_inset VSpace 1.6cm
 \end_inset
 
 
@@ -187,7 +189,7 @@ Desarrollo de software para el reconocimiento de edificios utilizando Deep
 
 \series bold
 \size larger
-\begin_inset VSpace 1.8cm
+\begin_inset VSpace 1.6cm
 \end_inset
 
 
@@ -213,7 +215,7 @@ Harry Daniel Vargas Pérez
 
 \series bold
 \size larger
-\begin_inset VSpace 1.8cm
+\begin_inset VSpace 1.6cm
 \end_inset
 
 
@@ -232,7 +234,7 @@ Asesor: Ing.
 
 \series bold
 \size larger
-\begin_inset VSpace 1.8cm
+\begin_inset VSpace 1.6cm
 \end_inset
 
 
@@ -531,19 +533,7 @@ Antecedentes
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-lettrine[lines=2]{D}
-\end_layout
-
-\end_inset
-
-iariamente las empresas reciben multitud de visitas, algunas de ellas de
+Diariamente las empresas reciben multitud de visitas, algunas de ellas de
  manera personal, otras de tipo empresarial y otras más de tipo comercial,
  ya sea en mayor o menor medida.
  Independientemente de su formalidad y relevancia, la empresa puede aprovechar
@@ -967,69 +957,6 @@ status open
 \end_layout
 
 \begin_layout Subsubsection
-Tensorflow
-\end_layout
-
-\begin_layout Standard
-\SpecialChar ligaturebreak
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Phantom Phantom
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Tensorflow 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "TFwebsite"
-literal "true"
-
-\end_inset
-
- es una librería de software de código abierto que es usada para implementar
- sistemas de aprendizaje automático 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "TFbook"
-literal "true"
-
-\end_inset
-
-.
- Esta plataforma fue desarrollada por Google para compartir con otros investigad
-ores y que desarrollen sistemas capaces de crear y entrenar redes neuronales
- para reconocer patrones; además de que provee distintas herramientas, librerías
- y recursos de la comunidad para poder realizar innovaciones en el campo
- del aprendizaje automático.
- Tensorflow es capaz de ser utilizado en distintos lenguajes de programación;
- en esta investigación es utilizado con el lenguaje Python.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Phantom Phantom
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsubsection
 Python
 \end_layout
 
@@ -1117,7 +1044,171 @@ status open
 \end_layout
 
 \begin_layout Subsubsection
-Jupyter Notebook
+Anaconda
+\end_layout
+
+\begin_layout Standard
+\begin_inset Phantom Phantom
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Anaconda 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "ANACONDAwebsite"
+literal "true"
+
+\end_inset
+
+ es una interfaz gráfica de usuario 
+\emph on
+(GUI)
+\emph default
+ que permite iniciar aplicaciones y administrar fácilmente paquetes, entornos
+ y canales de conda sin usar la línea de comandos 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Anaconda"
+literal "true"
+
+\end_inset
+
+.
+ Está disponible tanto para Windows, como para MacOS y Linux.
+ Anaconda cuenta con distintos paquetes, en esta investigación se utilizó
+ la versión 
+\emph on
+
+\begin_inset Quotes eld
+\end_inset
+
+Individual Edition
+\begin_inset Quotes erd
+\end_inset
+
+
+\emph default
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "AnacIEwebsite"
+literal "true"
+
+\end_inset
+
+.
+ Este paquete cuenta con 
+\emph on
+Anaconda Navigator 
+\emph default
+la cual es una 
+\emph on
+GUI
+\emph default
+ de escritorio, que permite la creación y administración de ambientes, además
+ de la instalación de algunas herramientas de desarrollo como lo es 
+\emph on
+Jupyter Notebook 
+\emph default
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "JUPYTERwebsite"
+literal "false"
+
+\end_inset
+
+, que es una aplicación web que permite la escritura de código en Python
+ y es instalada predeterminadamente junto con Anaconda.
+ Dicha herramienta es la utilizada para el desarrollo de la parte de inteligenci
+a artificial en este proyecto.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Phantom Phantom
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Tensorflow
+\end_layout
+
+\begin_layout Standard
+\SpecialChar ligaturebreak
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Phantom Phantom
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Tensorflow 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "TFwebsite"
+literal "true"
+
+\end_inset
+
+ es una librería de software de código abierto que es usada para implementar
+ sistemas de aprendizaje automático 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "TFbook"
+literal "true"
+
+\end_inset
+
+.
+ Esta plataforma fue desarrollada por Google para compartir con otros investigad
+ores y que desarrollen sistemas capaces de crear y entrenar redes neuronales
+ para reconocer patrones; además de que provee distintas herramientas, librerías
+ y recursos de la comunidad para poder realizar innovaciones en el campo
+ del aprendizaje automático.
+ Tensorflow es capaz de ser utilizado en distintos lenguajes de programación,
+ en esta investigación es utilizado con el lenguaje Python y es instalado
+ dentro de un ambiente gestionado por Anaconda.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Phantom Phantom
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -1164,6 +1255,67 @@ status open
 \end_layout
 
 \begin_layout Subsubsection
+JavaScript
+\end_layout
+
+\begin_layout Standard
+\begin_inset Phantom Phantom
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+JavaScript 
+\emph on
+(JS)
+\emph default
+ es un lenguaje de programación muy utilizado en los últimos años debido
+ a su flexibilidad, es un lenguaje multiparadigma y muchos de los sitios
+ web lo utilizan para las animaciones y más recientemente también es utilizado
+ para back-end trabajando del lado del servidor y no solamente del lado
+ del cliente 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "JavaScript2018"
+literal "false"
+
+\end_inset
+
+.
+ Es un lenguaje de script, lo que significa que no ocupa ser compilado,
+ solamente interpretado 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "JavaScriptManual"
+literal "false"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Phantom Phantom
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
 Node.js
 \end_layout
 
@@ -1186,25 +1338,82 @@ status open
 \end_layout
 
 \begin_layout Standard
-Node.js es un entorno de E/S asíncrono basado en eventos que utiliza el motor
- de JavaScript V8 de Google.
+En su sitio web oficial, se define a Node.js como un entorno de ejecución
+ de JavaScript E/S asíncrono y que está diseñado para crear aplicaciones
+ network escalables 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "NODEwebsite"
+literal "false"
+
+\end_inset
+
+.
+ Utiliza el motor de JavaScript V8 de Google 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "APIarticle"
+literal "false"
+
+\end_inset
+
+.
  Entre sus características destaca que es de código abierto y multiplataforma,
  es decir, que puede ser utilizado por distintos sistemas como Windows,
  Linux, MacOS, entre otros.
  El lenguaje utilizado en Node.js es JavaScript puro, con la ventaja que
- permite usar dicho lenguaje del lado del cliente y también del servidor.
+ permite usar dicho lenguaje del lado del cliente y también del servidor
  
+\begin_inset CommandInset citation
+LatexCommand cite
+key "JavaScript2018"
+literal "false"
+
+\end_inset
+
+.
+ Node.js es utilizado para el desarrollo del 
+\emph on
+back-end 
+\emph default
+en diversos proyectos actualmente.
 \end_layout
 
 \begin_layout Standard
-Express.js es un marco web utilizado en el desarrollo de aplicaciones web
- minimalistas y comúnmente utilizado para la creación de APIs 
+Express.js 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "EXPRESSwebsite"
+literal "false"
+
+\end_inset
+
+ es un marco web utilizado en el desarrollo de aplicaciones web minimalistas
+ y comúnmente utilizado para la creación de APIs 
 \emph on
 (Application Programming Interface)
 \emph default
 , ya que crea un servidor de HTTP que permite habilitar un puerto para la
  comunicación.
  
+\end_layout
+
+\begin_layout Standard
+Mongoose 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "MONGOOSEwebsite"
+literal "false"
+
+\end_inset
+
+ es una herramienta para el modelado de objetos de MongoDB, soporta promesas
+ y llamadas de respuesta 
+\emph on
+(callbacks).
+ 
+\emph default
+También funciona para crear una conexión con la base de datos.
 \end_layout
 
 \begin_layout Standard
@@ -1240,6 +1449,66 @@ status open
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+Se denomina API por sus siglas en inglés 
+\emph on
+Application Programming Interface
+\emph default
+.
+ Es un conjunto de métodos o 
+\emph on
+endpoints
+\emph default
+ que son ofrecidos por una biblioteca de código, que será utilizado por
+ otro software, demostrando así la capacidad de comunicación entre distintos
+ componentes de software.
+ REST también es un acrónimo en inglés 
+\emph on
+(Representational State Transfer)
+\emph default
+ y refiere a un tipo de arquitectura que sigue cuatro principios fundamentales:
+ 
+\end_layout
+
+\begin_layout Itemize
+Incluye el uso de métodos HTTP: aquí se establece una relación uno-a-uno
+ entre los métodos HTTP y las operaciones de un CRUD 
+\emph on
+(Create, Read, Update y Delete)
+\emph default
+, siendo el verbo POST utilizado para crear un registro, GET para obtenerlo,
+ PUT para actualizar y DELETE para eliminarlo.
+ Estas 4 funciones básicas son importantes ya que engloban las acciones
+ necesarias al manejar información.
+\end_layout
+
+\begin_layout Itemize
+No mantiene estados (stateless): cada petición debe de ser completa e independie
+nte, que contenga todos los datos para ser completada la orden.
+\end_layout
+
+\begin_layout Itemize
+Utiliza URIs en forma de directorio para realizar una operación definida:
+ las rutas definidas para los endpoints deben de ser intuitivas, se utiliza
+ en estilo de directorio para reconocer la jerarquía.
+\end_layout
+
+\begin_layout Itemize
+Transfiere XML, JSON o ambos: el formato JSON 
+\emph on
+(JavaScript Object Notation)
+\emph default
+ es un formato de archivo simple para describir datos jerárquicamente 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "DeepLearnBook,APIarticle"
+literal "false"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
@@ -1290,7 +1559,7 @@ status open
 \end_layout
 
 \begin_layout Subsubsection
-MongoDB
+MongoDB Atlas
 \end_layout
 
 \begin_layout Standard
@@ -1333,8 +1602,37 @@ Heroku
 \end_layout
 
 \begin_layout Standard
-\SpecialChar ligaturebreak
+\begin_inset Phantom Phantom
+status open
 
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+F
+\end_layout
+
+\begin_layout Standard
+\begin_inset Phantom Phantom
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Framework
 \end_layout
 
 \begin_layout Standard
@@ -1372,8 +1670,20 @@ React
 \end_layout
 
 \begin_layout Standard
-\SpecialChar ligaturebreak
+\begin_inset Phantom Phantom
+status open
 
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Axios
 \end_layout
 
 \begin_layout Standard
@@ -1389,8 +1699,8 @@ status open
 
 \end_layout
 
-\begin_layout Standard
-F
+\begin_layout Subsubsection
+React Native
 \end_layout
 
 \begin_layout Standard
@@ -1454,6 +1764,19 @@ A continuación, se muestran los siguientes puntos para el desarrollo del
  proyecto: 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Phantom Phantom
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsection
 Creación del dataset
 \end_layout
@@ -1464,6 +1787,19 @@ Para poder crear un modelo de inteligencia artificial capaz de reconocer
  recolectar imágenes que el modelo necesitará para poder entrenarse y ser
  capaz de reconocer edificios.
  
+\end_layout
+
+\begin_layout Standard
+\begin_inset Phantom Phantom
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -1485,6 +1821,19 @@ Las imágenes utilizadas son de la fachada de los edificios como las facultades,
  del clima en dirección a la fachada del edificio; todas las imágenes fueron
  tomadas durante el día.
  
+\end_layout
+
+\begin_layout Standard
+\begin_inset Phantom Phantom
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -1524,6 +1873,19 @@ Para poder reconocer edificos en una imagen, se crea un modelo de clasificación
  modelo:
 \end_layout
 
+\begin_layout Standard
+\begin_inset Phantom Phantom
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsubsection
 Preparación del entorno Python
 \end_layout
@@ -1552,6 +1914,19 @@ El proyecto está estructurado en un directorio, en él se encuentra un archivo
  
 \end_layout
 
+\begin_layout Standard
+\begin_inset Phantom Phantom
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsubsection
 Carga del dataset
 \end_layout
@@ -1564,6 +1939,19 @@ Para cargar las imágenes contenidas en un folder dentro del directorio,
  es 80% para entrenamiento y 20% para pruebas.
  Dichas imágenes son tomadas en una dimensión fija (224 x 224).
  
+\end_layout
+
+\begin_layout Standard
+\begin_inset Phantom Phantom
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -1619,10 +2007,41 @@ Dense
  128 y utilizando también la función de activación ReLu.
  Al final se agrega otra capa Dense con una salida del número total de clases
  para obtener la predicción.
- 
+ Esta descripción puede ser observada en la Figura 1, donde se muestran
+ las capas contenidas dentro del modelo.
 \end_layout
 
 \begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/model.png
+	lyxscale 30
+	width 6cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Modelo de la red neuronal
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
 
 \end_layout
 
@@ -1648,6 +2067,19 @@ accuracy
  (exactitud) como métrica de evaluación.
 \end_layout
 
+\begin_layout Standard
+\begin_inset Phantom Phantom
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsubsection
 Pruebas
 \end_layout
@@ -1660,6 +2092,19 @@ Las pruebas realizadas implican mover los hiperparámetros con los que se
  al momento de entrenar, los valores definidos y utilizados en el código
  son los que dieron un mejor desempeño al momento de entrenar y evaluar
  el modelo.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Phantom Phantom
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -1676,6 +2121,19 @@ accuracy
 \emph default
  incremente a medida que pasan las épocas y el error disminuya.
  
+\end_layout
+
+\begin_layout Standard
+\begin_inset Phantom Phantom
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -1702,14 +2160,15 @@ status open
 \end_layout
 
 \begin_layout Subsection
-API REST 
+Desarrollo de un API REST 
 \end_layout
 
 \begin_layout Standard
 Uno de los objetivos del proyecto es poder devolver al usuario información
- adicional y específica de cada edificio, para llevar a cabo esta tarea,
- se realizó una API Rest conectada a una base de datos que permitiría el
- manejo y visualización de la información complementaria.
+ adicional y específica de cada edificio.
+ Para llevar a cabo esta tarea, se realizó una API Rest conectada a una
+ base de datos que permitiría el manejo y visualización de la información
+ complementaria.
  
 \end_layout
 
@@ -1718,31 +2177,122 @@ Creación
 \end_layout
 
 \begin_layout Standard
-Para la cración del API se 
+Para la cración del API capaz de almacenar información y permitir a un administr
+ador manejar dicha información, se utiliza Node.js en su versión 12.18.4 para
+ poder crear dicha API que tendrá interacción con una base de datos alojada
+ en MongoDB Atlas en su versión gratuita.
+ Una vez finalizada, se utiliza Heroku para poder desplegar la API y poder
+ acceder a ella desde cualquier lugar mediante un link generado.
+ 
 \end_layout
 
 \begin_layout Standard
-Heroku, Node.js, MongoDB
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/API.png
+	lyxscale 50
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Estructura del API
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+En la figura 2 se muestra la manera en como está estructurado el código
+ fuente desarrollado para el API, en la carpeta de 
+\emph on
+controllers
+\emph default
+ se encuentran los endpoints que serán utilizados para el manejo de la informaci
+ón.
+ El archivo 
+\emph on
+Location.js
+\emph default
+ contiene el modelo con los campos requeridos para generar un nuevo registro
+ de una ubicación.
+ En el directorio de 
+\emph on
+routes
+\emph default
+ se encuentra el manejo de las rutas utilizando 
+\emph on
+express
+\emph default
+ para asignarle una dirección a cada endpoint.
+ En el archivo 
+\emph on
+database.js
+\emph default
+ está la configuración a la base de datos creada previamente en la plataforma
+ de MongoDB Atlas.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Phantom Phantom
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
-Consumo del servicio
+Función del servicio
 \end_layout
 
 \begin_layout Standard
-EndPoints
-\end_layout
-
-\begin_layout Standard
-Cómo acceder al servicio en el código react-native
-\end_layout
-
-\begin_layout Standard
-Formato (JSON)
-\end_layout
-
-\begin_layout Standard
-Extracción de la información
+Esta API será utilizada por la aplicación móvil y también por la plataforma
+ web, siendo la app la que consumirá más la visualización de la información,
+ mientras que la plataforma web será el medio por el cuál pueda ser insertada
+ nueva información o modificación de la misma.
+ Dentro de sus funciones, permite un 
+\emph on
+CRUD
+\emph default
+ 
+\emph on
+(Create, Read, Update y Delete) 
+\emph default
+completo para las ubicaciónes.
+ Existen 3 endpoints sobre el obtener información, uno permite obtener todas
+ las ubicaciones disponibles, otro permite una búsqueda específica por el
+ id del registro creado y uno último que permite obtener información específica
+ que será utilizada para cuando la app prediga sobre algún edificio reconocido.
+ También se cuenta la opción de crear, actualizar y eliminar un registro,
+ estos últimos son utilizados en la plataforma web.
+ Las respuestas regresadas son el formato JSON, esto permite un buen manejo
+ de la información y también es sencillo de utilizar en los frameworks utilizado
+s, ya que es común encontrarlo en las librerías disponibles más por ser
+ de JavaScript, además de que en MongoDB se maneja en dicho formato igualmente.
 \end_layout
 
 \begin_layout Standard
@@ -1762,20 +2312,119 @@ status open
 Administración de ubicaciones
 \end_layout
 
-\begin_layout Subsubsection
-CRUD
-\end_layout
-
-\begin_layout Subsubsection
-Descripción de la información
+\begin_layout Standard
+Se requirió de la creación de una plataforma para la administración de las
+ ubicaciones e información contenida de las mismas, para esto se desarrolló
+ una plataforma web utilizando el framework React en su versión 17.0\SpecialChar endofsentence
+1 que
+ a continuación será descrita.
 \end_layout
 
 \begin_layout Standard
-Qué información se almacena
+\begin_inset Phantom Phantom
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Funcionalidad
 \end_layout
 
 \begin_layout Standard
-Uso del API
+Esta aplicación permite la visualización, modificación, eliminación y creación
+ de registros de ubicaciones, mediante un formulario que proviene del modelo
+ provisto por el API especificada en el punto anterior.
+ Se utiliza axios para realizar las llamadas a los endpoints necesitados
+ en el manejo de los datos.
+ El modelo de las ubicaciones incluye un nombre, un teléfono de contacto,
+ sitio web en caso de contar con alguno, correo electrónico, el horario
+ de atención, una imágen de la fachada y también las coordenadas.
+ Toda esta información es la que se maneja y permite dar un plus al usuario
+ que desconoce la universidad y quisiera contactarse con algúna facultad
+ o departamento en específico.
+ En la pantalla principal mostrada en la Figura 4 se puede apreciar la manera
+ en cómo se ve la lista de las ubicaciones ya registradas, las funcionalidades
+ disponibles están marcadas por los botones de 
+\emph on
+
+\begin_inset Quotes eld
+\end_inset
+
+modificar
+\begin_inset Quotes erd
+\end_inset
+
+
+\emph default
+ y 
+\emph on
+
+\begin_inset Quotes eld
+\end_inset
+
+borrar
+\begin_inset Quotes erd
+\end_inset
+
+
+\emph default
+, además de que al hacer click sobre cada tarjeta se puede ver más información
+ sobre ese item.
+ También se puede agregar un nuevo registro con el botón en la barra superior.
+ Las imágenes no son guardadas en la base de datos, son subidas previamente
+ a una carpeta compartida en 
+\emph on
+Google Drive 
+\emph default
+y así poder generar un link que es el guardado en el registro del formulario.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/web.png
+	lyxscale 25
+	scale 17
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Interfaz principal plataforma web
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Cabe mencionar que en esta versión la plataforma no cuenta con un login,
+ por lo que no tiene seguridad al momento de administrar en los registros
+ realizados.
 \end_layout
 
 \begin_layout Standard
@@ -1795,6 +2444,19 @@ status open
 Implementación del modelo en la app
 \end_layout
 
+\begin_layout Standard
+\begin_inset Phantom Phantom
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsubsection
 Preparación del entorno react-native
 \end_layout
@@ -1807,12 +2469,38 @@ Se agregó paquetes de tensorflow
 Estructura
 \end_layout
 
+\begin_layout Standard
+\begin_inset Phantom Phantom
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsubsection
 Importación del modelo
 \end_layout
 
 \begin_layout Standard
 Cargar el modelo
+\end_layout
+
+\begin_layout Standard
+\begin_inset Phantom Phantom
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -1823,6 +2511,19 @@ Configuración de la cámara
 Creación de la vista para capturar la imagen
 \end_layout
 
+\begin_layout Standard
+\begin_inset Phantom Phantom
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsubsection
 Predicción
 \end_layout
@@ -1831,12 +2532,38 @@ Predicción
 Utilizar el modelo y devolver resultado
 \end_layout
 
+\begin_layout Standard
+\begin_inset Phantom Phantom
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsubsection
 Despliegue de la información
 \end_layout
 
 \begin_layout Standard
 Retornar información adicional (consulta al API) junto con la predicción.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Phantom Phantom
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -1870,6 +2597,40 @@ Evaluación del modelo
 
 \begin_layout Standard
 Interfaces (antes de tomar la imágen, después de la predicción)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/metrics.png
+	lyxscale 25
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Interfaz principal plataforma web
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section

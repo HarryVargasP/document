@@ -1,7 +1,7 @@
 % Encoding: UTF-8
 
 @Misc{civitatis,
-  howpublished = {[Online]. Available: https://www.civitatis.com/es/. [Accessed: 26- Apr- 2021]},
+  howpublished = {[Online]. Available: https://www.civitatis.com/es/ [Accessed: 26- Apr- 2021]},
   title        = {Visitas guiadas y excursiones en todo el mundo},
   journal      = {Civitatis},
   url          = {https://www.civitatis.com/es/},
@@ -21,15 +21,8 @@
   year    = {2016},
 }
 
-@Book{redesNeuronales,
-  author    = {Antonio Serrano and Emilio Soria and Jos{\'e} Mart{\'i}n},
-  publisher = {Universidad de Valencia},
-  title     = {{R}edes {N}euronales {A}rtificiales},
-  year      = {2009},
-}
-
 @Article{IA,
-  author  = {Ocaña Fern{\'a}ndez, Y. and Valenzuela Fern{\'a}ndez, L. and Garro Aburto, L.},
+  author  = {Oca{\~n}a Fern{\'a}ndez, Y. and Valenzuela Fern{\'a}ndez, L. and Garro Aburto, L.},
   journal = {Revista de Psicolog{\'i}a Educativa},
   title   = {Inteligencia artificial y sus implicaciones en la educaci{\'o}n superior},
   year    = {2019},
@@ -59,33 +52,38 @@
 @Article{deep2019,
   author  = {Padial, Juan},
   journal = {Naturaleza y Libertad. Revista de estudios interdisciplinares},
-  title   = {T{\'e}cnicas de programacicn "deep learning": ¿simulacro o realizaci{\'o}n artificial de la inteligencia?},
+  title   = {T{\'e}cnicas de programaci{\'o}n "deep learning": ¿simulacro o realizaci{\'o}n artificial de la inteligencia?},
   year    = {2019},
   doi     = {10.24310/NATyLIB.2019.v0i12.6274},
+  file    = {:deep2019 - Tecnicas De Programacion _deep Learning__ ¿simulacro O Realizacion Artificial De La Inteligencia_.pdf:PDF},
 }
 
 @Misc{UNAMvirtual,
-  title   = {{R}ecorrido {V}irtual},
-  journal = {UNAM},
-  url     = {http://www.comitedeanalisis.unam.mx/recorrido-virtual.html},
+  howpublished = {[Online]. Available: http://www.comitedeanalisis.unam.mx/recorrido-virtual.html [Accessed: 26- Apr- 2021]},
+  title        = {{R}ecorrido {V}irtual},
+  journal      = {UNAM},
+  url          = {http://www.comitedeanalisis.unam.mx/recorrido-virtual.html},
 }
 
 @Misc{IBEROvirtual,
-  title   = {{R}ecorridos {V}irtuales},
-  journal = {IBERO},
-  url     = {https://www.iberopuebla.mx/la-ibero/campus/recorridos-virtuales},
+  howpublished = {[Online]. Available: https://www.iberopuebla.mx/la-ibero/campus/recorridos-virtuales [Accessed: 26- Apr- 2021]},
+  title        = {{R}ecorridos {V}irtuales},
+  journal      = {IBERO},
+  url          = {https://www.iberopuebla.mx/la-ibero/campus/recorridos-virtuales},
 }
 
 @Misc{INTERvirtual,
-  title   = {{R}ecorrido {V}irtual},
-  journal = {Universidad Intercontinental},
-  url     = {https://www.uic.mx/uic-360/virtualtour.html},
+  howpublished = {[Online]. Available: https://www.uic.mx/uic-360/virtualtour.html [Accessed: 26- Apr- 2021]},
+  title        = {{R}ecorrido {V}irtual},
+  journal      = {Universidad Intercontinental},
+  url          = {https://www.uic.mx/uic-360/virtualtour.html},
 }
 
 @Misc{TFwebsite,
-  title   = {{T}ensor{F}low},
-  journal = {TensorFlow},
-  url     = {https://www.tensorflow.org/?hl=es-419},
+  howpublished = {[Online]. Available: https://www.tensorflow.org/ [Accessed: 26- Apr- 2021]},
+  title        = {{T}ensor{F}low},
+  journal      = {TensorFlow},
+  url          = {https://www.tensorflow.org/},
 }
 
 @Book{TFbook,
@@ -96,9 +94,10 @@
 }
 
 @Misc{PYTHONwebsite,
-  title   = {Python},
-  journal = {Python},
-  url     = {https://www.python.org/},
+  howpublished = {[Online]. Available: https://www.python.org/ [Accessed: 26- Apr- 2021]},
+  title        = {Python},
+  journal      = {Python},
+  url          = {https://www.python.org/},
 }
 
 @Book{PYTHONbook,
@@ -113,6 +112,128 @@
   journal = {Universidad Tecnol{\'o}gica Nacional},
   title   = {{R}edes {N}euronales: {C}onceptos {B}{\'a}sicos y {A}plicaciones},
   year    = {2001},
+}
+
+@Misc{ANACONDAwebsite,
+  howpublished = {[Online]. Available: https://www.anaconda.com/ [Accessed: 02- May- 2021]},
+  title        = {Anaconda},
+  journal      = {Anaconda},
+  url          = {https://www.anaconda.com/},
+}
+
+@Book{Anaconda,
+  author    = {Vinita Silaparasetty},
+  publisher = {Apress},
+  title     = {{D}eep {L}earning {P}rojects {U}sing {T}ensor{F}low 2},
+  year      = {2020},
+  isbn      = {978-1-4842-5802-6},
+  doi       = {10.1007/978-1-4842-5802-6},
+}
+
+@Misc{AnacIEwebsite,
+  howpublished = {[Online]. Available: https://www.anaconda.com/products/individual [Accessed: 02- May- 2021]},
+  title        = {Anaconda Individual Edition},
+  journal      = {Anaconda Individual Edition},
+  url          = {https://www.anaconda.com/products/individual},
+}
+
+@Article{JavaScript2018,
+  author  = {Jin-Tae Park and Hyun-Gook Kim and Il-Young Moon},
+  journal = {International Journal of Advanced Science and Technology},
+  title   = {{T}he {J}ava{S}cript and {W}eb {A}ssembly {F}unction {A}nalysis to {I}mprove {P}erformance of {W}eb {A}pplication},
+  year    = {2018},
+}
+
+@Misc{NODEwebsite,
+  howpublished = {[Online]. Available: https://nodejs.org/es/ [Accessed: 02- May- 2021]},
+  title        = {Node.js},
+  journal      = {Node.js},
+  url          = {https://nodejs.org/es/},
+}
+
+@Article{APIarticle,
+  author  = {Eloy Castelo},
+  journal = {Universidad de Vigo},
+  title   = {{D}ise{\~n}o y desarrollo de una {API REST} sobre la que se apoyar{\'a} una red social y una aplicaci{\'o}n {A}ndroid ({SOCIAL PILGRIM})},
+  year    = {2016},
+}
+
+@Misc{ATLASwebsite,
+  howpublished = {[Online]. Available: https://www.mongodb.com/cloud/atlas [Accessed: 26- Apr- 2021]},
+  title        = {{M}ongo{DB A}tlas},
+  journal      = {MongoDB Atlas},
+  url          = {https://www.mongodb.com/cloud/atlas},
+}
+
+@Misc{MONGOwebsite,
+  howpublished = {[Online]. Available: https://www.mongodb.com/ [Accessed: 26- Apr- 2021]},
+  title        = {{M}ongo{DB}},
+  journal      = {MongoDB},
+  url          = {https://www.mongodb.com/},
+}
+
+@Misc{HEROKUwebsite,
+  howpublished = {[Online]. Available: https://www.heroku.com/ [Accessed: 02- May- 2021]},
+  title        = {Heroku},
+  journal      = {Heroku},
+  url          = {https://www.heroku.com/},
+}
+
+@Book{redesNeuronales,
+  author    = {Antonio Serrano and Emilio Soria and Jos{\'e} Mart{\'i}n},
+  publisher = {Universidad de Valencia},
+  title     = {{R}edes {N}euronales {A}rtificiales},
+  year      = {2009},
+}
+
+@Misc{REACTwebsite,
+  howpublished = {[Online]. Available: https://es.reactjs.org/ [Accessed: 02- May- 2021]},
+  title        = {React},
+  journal      = {React},
+  url          = {https://es.reactjs.org/},
+}
+
+@Misc{REACTNATIVEwebsite,
+  howpublished = {[Online]. Available: https://reactnative.dev/ [Accessed: 02- May- 2021]},
+  title        = {React {N}ative},
+  journal      = {React {N}ative},
+  url          = https://reactnative.dev/,
+}
+
+@Book{JavaScriptManual,
+  author    = {Purificaci{\'o}n, Alba},
+  publisher = {EDITORIAL CEP S.L.},
+  title     = {Manual de {J}ava{S}cript},
+  year      = {2011},
+}
+
+@Misc{EXPRESSwebsite,
+  howpublished = {[Online]. Available: http://expressjs.com/ [Accessed: 02- May- 2021]},
+  title        = {Express},
+  journal      = {Express},
+  url          = {http://expressjs.com/},
+}
+
+@Misc{MONGOOSEwebsite,
+  howpublished = {[Online]. Available: https://mongoosejs.com/ [Accessed: 02- May- 2021]},
+  title        = {Mongoose},
+  journal      = {Mongoose},
+  url          = {https://mongoosejs.com/},
+}
+
+@Book{DeepLearnBook,
+  author    = {Jason Brownlee},
+  publisher = {Machine Learning Mastery},
+  title     = {{D}eep {L}earning {W}ith {P}ython},
+  year      = {2016},
+}
+
+@Article{NoSQLarticle,
+  author  = {Li, Ziqi},
+  journal = {Geographic Information Science & Technology Body of Knowledge},
+  title   = {No{SQL D}atabases},
+  year    = {2018},
+  doi     = {10.22224/gistbok/2018.2.4},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
