@@ -31,7 +31,19 @@
 \index_command default
 \paperfontsize default
 \spacing single
-\use_hyperref false
+\use_hyperref true
+\pdf_title "Desarrollo de software para el reconocimiento de edificios utilizando Deep Learning"
+\pdf_author "Harry Vargas"
+\pdf_bookmarks true
+\pdf_bookmarksnumbered true
+\pdf_bookmarksopen true
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle false
+\pdf_quoted_options "pdfpagelayout=OneColumn, pdfnewwindow=true, pdfstartview=XYZ, plainpages=false"
 \papersize default
 \use_geometry false
 \use_package amsmath 1
@@ -52,7 +64,7 @@
 \paperorientation portrait
 \suppress_date false
 \justification true
-\use_refstyle 1
+\use_refstyle 0
 \use_minted 0
 \index Index
 \shortcut idx
@@ -3461,15 +3473,14 @@ El tiempo de respuesta toma entre 3 a 4 segundos, esto debido a que hace
  mucho espacio y los objetivos era conseguir tener una aplicación que fuera
  posible de usar en muchos dispositivos y no requiriera tantos atributos
  de hardware disponibles.
- Es por esto que se optó por esta aproximación y se desempeñó de muy buena
- manera.
- 
+ La aproximación utilizada tuvo un buen desempeño y permitió enfrentar algunos
+ aspectos de integración.
 \end_layout
 
 \begin_layout Standard
-La plataforma desarrollada en React para habilitar a un administrador a
- registrar nuevas ubicaciones presenta un producto completo en la funcionalidad
- de crear y visualizar los datos guardados para poder mostrarlos al usuario.
+La plataforma desarrollada en React, permite a un administrador realizar
+ las tareas de creación y registro de nuevas ubicaciones, así como la visualizac
+ión de los datos guardados.
  La aplicación móvil muestra buen funcionamiento tanto en Android como en
  iOS, es simple pero cumple con el objetivo buscado donde se pueda predecir
  un resultado y devolver datos relevantes.
@@ -3484,12 +3495,16 @@ CONCLUSIONES
 
 \begin_layout Standard
 Los productos presentados ofrecen una gran ayuda al cumplimiento de los
- objetivos, debido a que laimplementación de todos sus componentes hacen
+ objetivos, debido a que la implementación de todos sus componentes hacen
  a la aplicación completa.
  Se encontró que el modelo presentado ofrece buen rendimiento en su tarea
  de clasificar las imágenes para identificar al edicio qie se corresponde,
- además que el uso de expo facilita en gran manera la ejecución de la aplicación
- en un dispositivo móvil.
+ además que el uso de 
+\emph on
+expo
+\emph default
+ facilita en gran manera la ejecución de la aplicación en un dispositivo
+ móvil.
 \end_layout
 
 \begin_layout Standard
