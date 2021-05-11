@@ -326,7 +326,20 @@ abstractname}{Resumen}
 \begin_layout Abstract
 
 \color black
-Aquí va el abstract.
+Múltiples empresas y organizaciones ofrecen visitas guiadas sobre sus instalacio
+nes para que los visitantes puedan interesarse en conocer más y llevarse
+ una buena impresión.
+ Para llevar a cabo esta tarea, se requiere de recursos económicos y tiempo
+ en capacitar a recurso humano para hacer una actividad que se vuelve monótona.
+ El objetivo de esta investigación es contar con una herramienta que permita
+ proporcionar ayuda al área de promoción y reclutamiento en proporcionar
+ información a los visitantes sobre los edificios que ellos observan, además
+ de implementar inteligencia artificial para crear un reconocedor de edificios,
+ mediante imágenes que ellos capturen.
+ Dicha aplicación busca ser funcional tanto en iOS y Android, para tener
+ una mayor compatibilidad y alcance, el framework de desarrollo de esta
+ aplicación es React Native que utiliza JavaScript.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -348,7 +361,7 @@ IEEEkeywordsname{Palabras Clave}
 \end_layout
 
 \begin_layout Keywords
-Keywords
+Dataset, API, Framework, Inteligencia Artificial
 \end_layout
 
 \begin_layout Standard
@@ -542,20 +555,28 @@ Diariamente las empresas reciben multitud de visitas, algunas de ellas de
  En beneficio de la imagen de la empresa, las visitas deben ser atendidas
  de acuerdo a las características propias de la empresa u organización para
  dar una impresión correcta del funcionamiento de la misma.
- Para atender a las visitas, las organizaciones dedican distintos recursos
+ 
+\end_layout
+
+\begin_layout Standard
+Para atender a las visitas, las organizaciones dedican distintos recursos
  como tiempo, dinero y esfuerzo, además de requerir una preparación del
- recurso humano para poder brindar una atención de calidad y adecuada según
+ recurso humano para poder brindar una atención adecuada y de calidad según
  sea la visita que reciban.
  A los visitantes les interesa la información acerca de lo que observan
  durante el recorrido, como los principales edificios de la organización
  o los espacios en los que se encuentran.
- Distintas universidades (agregar referencias) también ofrecen recorridos
- por sus instalaciones para que posibles nuevos alumnos se interesen en
- realizar su preparación académica con ellos; además de otros recorridos
- a grupos en espacios como bibliotecas o facultades específicas que dan
- más ayuda al interesado o interesados a poder hacer una evaluación más
- completa e integral de la universidad que están visitando.
- También algunas universidades están obtando por ofrecer un recorrido virtual
+ 
+\end_layout
+
+\begin_layout Standard
+Distintas universidades también ofrecen recorridos por sus instalaciones
+ para que posibles nuevos alumnos se interesen en realizar su preparación
+ académica con ellos; además de otros recorridos a grupos en espacios como
+ bibliotecas o facultades específicas que dan más ayuda al interesado o
+ interesados a poder hacer una evaluación más completa e integral de la
+ universidad que están visitando.
+ También algunas universidades están optando por ofrecer un recorrido virtual
  a través de sus instalaciones 
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -565,10 +586,13 @@ literal "true"
 \end_inset
 
 , esta es una gran oportunidad que puede ser aprovechada más en el tiempo
- que se está viviendo debido al confinamiento por causa del COVID-19, este
+ que se está viviendo debido al confinamiento por causa del COVID-19; este
  recorrido atraviesa los lugares más referentes del plantel mediante un
- video o un mapa utilizando Google Maps para poder desplazarse sobre las
- áreas determinadas.
+ video o un mapa utilizando 
+\emph on
+Google Maps 
+\emph default
+para poder desplazarse sobre las áreas determinadas.
  Existen plataformas como civitatis 
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -577,7 +601,7 @@ literal "true"
 
 \end_inset
 
- que ofrecen recorridos a lugares alrededor del mundo de manera precencial
+ que ofrecen recorridos a lugares alrededor del mundo de manera presencial
  que incluyen visitas a universidades, museos, zonas turísticas, entre otras.
  Dicha plataforma también está bajo las recomendaciones e instrucciones
  de parte del personal médico en cada lugar.
@@ -612,33 +636,20 @@ literal "true"
 \end_inset
 
 .
+ Actualmente muchos de los procesos realizados en la universidad pudiesen
+ ser optimizados mediante la implementación de tecnología, uno de los que
+ se observaron para la realización de esta investigación es el acompañamiento
+ en los recorridos guiados a través del campus.
  Al realizar un recorrido es interesante e importante para el visitante,
  obtener información y realimentación acerca de los principales lugares
  que se visitan.
- En este proyecto se desarrolla una aplicación móvil que provee información
- y realimentación acerca de los principales edificios e instalaciones de
- la Universidad de Montemorelos.
- En esta aplicación el usuario hace uso de la cámara para poder capturar
- una imagen del edificio sobre el cual se requiere información y tomarla
- como entrada.
- Para proveer ésta realimentación se utilizan técnicas de reconocimiento
- basadas en aprendizaje profundo 
-\emph on
-(Deep Learning)
-\emph default
- para lograr una identificación aceptable.
- La implementación de esta característica permite lograr una cercanía a
- los valores e información importante de la institución.
- La aplicación es relevante porque permite que los nuevos visitantes o grupo
- de visitantes, puedan tener información adicional además de la provista
- por el personal que guía el recorrido, el cual tiene que ser instruido
- y capacitado previamente.
- Este proceso requiere invertir tiempo de preparación en conocer bien los
- lugares e historias.
- En ocasiones, para el personal guía, puede resultar monótono repetir las
- descripciones e información, para lo cual una aplicación no, además de
- dar un plus tecnológico en una actividad que pareciera monótona hasta el
- momento.
+ En este proyecto se desarrolla una aplicación móvil que provee esta información
+ complementaria acerca de los principales edificios e instalaciones de la
+ Universidad de Montemorelos.
+ Se implementa también el reconocimiento de edificios mediante imágenes
+ capturadas por el usuario, en esta investigación se trabajó con 8 edificios,
+ recolectando imágenes de sus fachadas en distintos ángulos y condiciones
+ climáticas.
 \end_layout
 
 \begin_layout Subsection
@@ -656,7 +667,37 @@ Aprovechando el auge y accesibilidad de los dispositivos móviles y basado
  y iOS, que permite identificar los departamentos y facultades dentro de
  la institución utilizando algoritmos de Inteligencia Artificial y Deep
  Learning para conseguir una predicción aceptable.
- Ésta aplicación es útil para el departamento de promoción y reclutamiento
+ 
+\end_layout
+
+\begin_layout Standard
+En esta aplicación el usuario hace uso de la cámara para poder capturar
+ una imagen del edificio sobre el cual se requiere información y tomarla
+ como entrada.
+ Para proveer ésta realimentación se utilizan técnicas de reconocimiento
+ basadas en aprendizaje profundo 
+\emph on
+(Deep Learning)
+\emph default
+ para lograr una identificación aceptable.
+ La implementación de esta característica permite lograr una cercanía a
+ los valores e información importante de la institución.
+ 
+\end_layout
+
+\begin_layout Standard
+La aplicación es relevante porque permite que los nuevos visitantes o grupo
+ de visitantes, puedan tener información adicional además de la provista
+ por el personal que guía el recorrido, el cual tiene que ser instruido
+ y capacitado previamente.
+ Este proceso requiere invertir tiempo de preparación en conocer bien los
+ lugares e historias.
+ En ocasiones, para el personal guía, puede resultar monótono repetir las
+ descripciones e información, lo cual no sucederá con la aplicación.
+\end_layout
+
+\begin_layout Standard
+Ésta aplicación es útil para el departamento de promoción y reclutamiento
  en la Universidad de Montemorelos al llevar a cabo su actividad de guía
  que es realizada de forma recurrente, facilitando que los visitantes obtengan
  la información de los edificios a partir de una entrada visual mediante
@@ -665,7 +706,7 @@ Aprovechando el auge y accesibilidad de los dispositivos móviles y basado
  y la relación con la institución.
  El visitante puede obtener información relevante, no sensible o pública
  de cada departamento o facultad como horario de atención, teléfono de contacto,
- las carreras con las que cuenta cierta facultad, historia, entre otras.
+ las carreras con las que cuenta cada facultad, historia, entre otras.
 \end_layout
 
 \begin_layout Subsection
@@ -677,8 +718,8 @@ Objetivos generales
 \end_layout
 
 \begin_layout Standard
-Se espera obtener una aplicación que permita ofrecer una ayuda a una persona
- que desconozca la Universidad de Montemorelos, sumado a esto la disminución
+Se espera obtener una aplicación que permita ofrecer ayuda a personas interesada
+s en conocer la Universidad de Montemorelos, sumado a esto la disminución
  del trabajo de acompañamiento en los recorridos y la oportunidad de hacer
  más didáctico y tecnológico el recorrido a la institución.
  Esta innovación permitiría a la universidad contar con una aplicación descripti
@@ -726,6 +767,19 @@ FUNDAMENTOS TEÓRICOS
 
 \begin_layout Subsection
 MARCO TEÓRICO
+\end_layout
+
+\begin_layout Standard
+En ésta sección son presentados algunos conceptos fundamentales en esta
+ investigación, además de herramientas utilizadas en el desarrollo del mismo.
+ En su primera parte se muestran conceptos relacionados a el modelo creado
+ capaz de reconocer imágenes y predecir a qué edificio se está apuntando
+ en la fotografía, además de algunas herramientas utilizadas para su desarrollo
+ e implementación.
+ En la segunda parte se explican conceptos y herramientas para la creación
+ del servicio capaz de almacenar la información que se le devolverá al usuario
+ y por último las herramientas que fueron usadas para la unificación de
+ las partes anteriores en una aplicación móvil.
 \end_layout
 
 \begin_layout Standard
@@ -807,7 +861,7 @@ status open
 \end_layout
 
 \begin_layout Subsubsection
-Redes Neuronales
+Machine Learning
 \end_layout
 
 \begin_layout Standard
@@ -829,44 +883,49 @@ status open
 \end_layout
 
 \begin_layout Standard
-Una de las definiciones que se puede utilizar para dar significado a las
- redes neuronales artificiales puede ser: “Una red neuronal es un modelo
- computacional, paralelo, compuesto de unidades procesadoras adaptativas
- con una alta interconexión entre ellas” 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "redesNeuronales"
-literal "true"
+El aprendizaje automático 
+\emph on
+(Machine Learning)
+\emph default
+ es una herramienta de la inteligencia artificial que se enfoca en el análisis
+ de datos para poder obtener predicciones a futuro sobre posibles comportamiento
+s.
+ Para esto se utilizan algoritmos que utilizan los datos pasados o presentes
+ y ayudan a formular una predicción.
+ Hay tres tipos de aprendizaje automático: 
+\end_layout
 
-\end_inset
+\begin_layout Itemize
+Aprendizaje supervisado: Se trabaja con datos etiquetados o clasificados.
+\end_layout
 
- Básicamente la comparativa con una red neuronal biológica se refleja en
- la distribución de las operaciones que se realizan en el conjunto de los
- elementos básicos que representan las neuronas.
- Estas neuronas están interconectadas entre sí y se denominan pesos sinápticos,
- estos pesos varían con el paso del tiempo de entrenamiento.
- Así se puede definir el aprendizaje de una red neuronal como el proceso
- en el cual se modifican las conexiones entre las neuronas para poder realizar
- un objetivo definido.
- 
+\begin_layout Itemize
+Aprendizaje no supervisado: Se utilizan datos en bruto, sin etiquetas, lo
+ que lleva a realizar agrupaciones buscando similitudes entre los datos.
+\end_layout
+
+\begin_layout Itemize
+Aprendizaje semi-supervisado: No todos los datos a utilizar están etiquetados.
+\end_layout
+
+\begin_layout Itemize
+Aprendizaje de refuerzo: es cuando los datos no están etiquetados, pero
+ pasado un periodo y unas acciones, el algortimo será retroalimentado mediante
+ actualizaciones.
 \end_layout
 
 \begin_layout Standard
-Las redes neuronales artificiales tienen una topología que consiste en la
- forma en que las neuronas están organizadas, de manera que crean agrupaciones
- (capas) más cerca de la entrada o de la salida de la red.
- Algunos de los parámetros fundamentales en estas redes son el número de
- capas formadas, la cantidad de neuronas en cada capa, el grado de conectividad
- y el tipo de conexiones entre las neuronas 
+Esta rama de la inteligencia artificial tiene un gran potencial y es utilizada
+ en distintas áreas hoy en día como la medicina, finanzas, educación, entre
+ otras 
 \begin_inset CommandInset citation
 LatexCommand cite
-key "Matich2001"
-literal "true"
+key "MLarticle"
+literal "false"
 
 \end_inset
 
 .
- 
 \end_layout
 
 \begin_layout Standard
@@ -935,6 +994,82 @@ o datos ocultos o profundos desde una red neuronal
 \begin_inset CommandInset citation
 LatexCommand cite
 key "deep2019"
+literal "true"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Phantom Phantom
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Redes Neuronales
+\end_layout
+
+\begin_layout Standard
+\SpecialChar ligaturebreak
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Phantom Phantom
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Una de las definiciones que se puede utilizar para dar significado a las
+ redes neuronales artificiales puede ser: “Una red neuronal es un modelo
+ computacional, paralelo, compuesto de unidades procesadoras adaptativas
+ con una alta interconexión entre ellas” 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "redesNeuronales"
+literal "true"
+
+\end_inset
+
+ Básicamente la comparativa con una red neuronal biológica se refleja en
+ la distribución de las operaciones que se realizan en el conjunto de los
+ elementos básicos que representan las neuronas.
+ Estas neuronas están interconectadas entre sí y se denominan pesos sinápticos,
+ estos pesos varían con el paso del tiempo de entrenamiento.
+ Así se puede definir el aprendizaje de una red neuronal como el proceso
+ en el cual se modifican las conexiones entre las neuronas para poder realizar
+ un objetivo definido.
+ 
+\end_layout
+
+\begin_layout Standard
+Las redes neuronales artificiales tienen una topología que consiste en la
+ forma en que las neuronas están organizadas, de manera que crean agrupaciones
+ (capas) más cerca de la entrada o de la salida de la red.
+ Algunos de los parámetros fundamentales en estas redes son el número de
+ capas formadas, la cantidad de neuronas en cada capa, el grado de conectividad
+ y el tipo de conexiones entre las neuronas 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Matich2001"
 literal "true"
 
 \end_inset
@@ -1045,6 +1180,11 @@ status open
 
 \begin_layout Subsubsection
 Anaconda
+\end_layout
+
+\begin_layout Standard
+\SpecialChar ligaturebreak
+
 \end_layout
 
 \begin_layout Standard
@@ -1189,7 +1329,7 @@ literal "true"
 
 .
  Esta plataforma fue desarrollada por Google para compartir con otros investigad
-ores y que desarrollen sistemas capaces de crear y entrenar redes neuronales
+ores y poder desarrollar sistemas capaces de crear y entrenar redes neuronales
  para reconocer patrones; además de que provee distintas herramientas, librerías
  y recursos de la comunidad para poder realizar innovaciones en el campo
  del aprendizaje automático.
@@ -1234,11 +1374,37 @@ status open
 \end_layout
 
 \begin_layout Standard
-Accuracy
-\end_layout
+Mediante el uso de la herramienta de Tensorflow, permite la creación de
+ proyectos de 
+\emph on
+machine learning
+\emph default
+.
+ Se necesita una métrica de evaluación adecuada para evaluar el desempeño
+ de un modelo en la tarea de reconocimiento de imágenes, se utiliza el término
+ 
+\emph on
+accuracy
+\emph default
+ para referirse a esta exactitud con la que el modelo predice los resultados.
+ Al compilar el modelo obtenido se asigna esta métrica, mientras que también
+ se utilizan otros dos componentes para configurar el proceso de aprendizaje
+ de una red neuronal que son la función de pérdida 
+\emph on
+(loss function) 
+\emph default
+y el optimizador, estos dos componentes deben de elegirse de acuerdo a la
+ tarea que se realice y tomar en cuenta otros factores como el número de
+ clases o los posibles desequilibrios de clases 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "MetricsArticle"
+literal "false"
 
-\begin_layout Standard
-Loss
+\end_inset
+
+.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -1256,6 +1422,11 @@ status open
 
 \begin_layout Subsubsection
 JavaScript
+\end_layout
+
+\begin_layout Standard
+\SpecialChar ligaturebreak
+
 \end_layout
 
 \begin_layout Standard
@@ -1278,9 +1449,8 @@ JavaScript
 \emph default
  es un lenguaje de programación muy utilizado en los últimos años debido
  a su flexibilidad, es un lenguaje multiparadigma y muchos de los sitios
- web lo utilizan para las animaciones y más recientemente también es utilizado
- para back-end trabajando del lado del servidor y no solamente del lado
- del cliente 
+ web lo utilizan para las animaciones y más recientemente para back-end,
+ trabajando del lado del servidor 
 \begin_inset CommandInset citation
 LatexCommand cite
 key "JavaScript2018"
@@ -1300,120 +1470,6 @@ literal "false"
 
 .
  
-\end_layout
-
-\begin_layout Standard
-\begin_inset Phantom Phantom
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsubsection
-Node.js
-\end_layout
-
-\begin_layout Standard
-\SpecialChar ligaturebreak
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Phantom Phantom
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-En su sitio web oficial, se define a Node.js como un entorno de ejecución
- de JavaScript E/S asíncrono y que está diseñado para crear aplicaciones
- network escalables 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "NODEwebsite"
-literal "false"
-
-\end_inset
-
-.
- Utiliza el motor de JavaScript V8 de Google 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "APIarticle"
-literal "false"
-
-\end_inset
-
-.
- Entre sus características destaca que es de código abierto y multiplataforma,
- es decir, que puede ser utilizado por distintos sistemas como Windows,
- Linux, MacOS, entre otros.
- El lenguaje utilizado en Node.js es JavaScript puro, con la ventaja que
- permite usar dicho lenguaje del lado del cliente y también del servidor
- 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "JavaScript2018"
-literal "false"
-
-\end_inset
-
-.
- Node.js es utilizado para el desarrollo del 
-\emph on
-back-end 
-\emph default
-en diversos proyectos actualmente.
-\end_layout
-
-\begin_layout Standard
-Express.js 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "EXPRESSwebsite"
-literal "false"
-
-\end_inset
-
- es un marco web utilizado en el desarrollo de aplicaciones web minimalistas
- y comúnmente utilizado para la creación de APIs 
-\emph on
-(Application Programming Interface)
-\emph default
-, ya que crea un servidor de HTTP que permite habilitar un puerto para la
- comunicación.
- 
-\end_layout
-
-\begin_layout Standard
-Mongoose 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "MONGOOSEwebsite"
-literal "false"
-
-\end_inset
-
- es una herramienta para el modelado de objetos de MongoDB, soporta promesas
- y llamadas de respuesta 
-\emph on
-(callbacks).
- 
-\emph default
-También funciona para crear una conexión con la base de datos.
 \end_layout
 
 \begin_layout Standard
@@ -1525,7 +1581,12 @@ status open
 \end_layout
 
 \begin_layout Subsubsection
-Base de Datos noSQL
+Node.js
+\end_layout
+
+\begin_layout Standard
+\SpecialChar ligaturebreak
+
 \end_layout
 
 \begin_layout Standard
@@ -1542,7 +1603,140 @@ status open
 \end_layout
 
 \begin_layout Standard
-F
+En su sitio web oficial, se define a Node.js como un entorno de ejecución
+ de JavaScript E/S asíncrono y que está diseñado para crear aplicaciones
+ de red escalables 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "NODEwebsite"
+literal "false"
+
+\end_inset
+
+.
+ Utiliza el motor de JavaScript V8 de Google 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "APIarticle"
+literal "false"
+
+\end_inset
+
+.
+ Entre sus características destaca que es de código abierto y multiplataforma,
+ es decir, que puede ser utilizado por distintos sistemas como Windows,
+ Linux, MacOS, entre otros.
+ El lenguaje utilizado en Node.js es JavaScript puro, con la ventaja que
+ permite usar dicho lenguaje del lado del cliente y también del servidor
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "JavaScript2018"
+literal "false"
+
+\end_inset
+
+.
+ Node.js es utilizado para el desarrollo del 
+\emph on
+back-end 
+\emph default
+en diversos proyectos actualmente.
+\end_layout
+
+\begin_layout Standard
+Express.js 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "EXPRESSwebsite"
+literal "false"
+
+\end_inset
+
+ es un marco web utilizado en el desarrollo de aplicaciones web minimalistas
+ y comúnmente utilizado para la creación de APIs 
+\emph on
+(Application Programming Interface)
+\emph default
+, ya que crea un servidor de HTTP que permite habilitar un puerto para la
+ comunicación.
+ 
+\end_layout
+
+\begin_layout Standard
+Mongoose 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "MONGOOSEwebsite"
+literal "false"
+
+\end_inset
+
+ es una herramienta para el modelado de objetos de MongoDB, soporta promesas
+ y llamadas de respuesta 
+\emph on
+(callbacks).
+ 
+\emph default
+También funciona para crear una conexión con la base de datos.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Phantom Phantom
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Base de Datos noSQL
+\end_layout
+
+\begin_layout Standard
+\SpecialChar ligaturebreak
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Phantom Phantom
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Las bases de datos NoSQL, son bases de datos de código abierto, sin esquema,
+ escalables horizontalmente (se pueden agregar más servidores para trabajar
+ en la misma carga de trabajo) y de alto rendimiento.
+ Estas características las hacen muy diferentes de las bases de datos relacional
+es, la opción tradicional para datos espaciales.
+ Las bases de datos NoSQL están bien adaptadas para manejar los desafíos
+ típicos de big data, incluidos el volumen, la variedad y la velocidad.
+ Por estas razones, las industrias privadas los adoptan cada vez más y se
+ utilizan en la investigación.
+ Se ha hecho más común utilizar las base de datos NoSQL en los últimos años
+ debido a su capacidad para administrar datos no estructurados (por ejemplo,
+ datos de redes sociales) 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "NoSQLarticle"
+literal "false"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
@@ -1581,7 +1775,24 @@ status open
 \end_layout
 
 \begin_layout Standard
-F
+Esta herramienta ofrece una base de datos para aplicaciones modernas como
+ un servicio en la nube totalmente automatizado diseñado y ejecutado por
+ el mismo equipo que crea la base de datos.
+ Utilizando esta herramienta (panel de control y la API fáciles de usar),
+ le permiten al desarrollador dedicar más tiempo a crear aplicaciones y
+ menos a administrar su base de datos.
+ La utilización de MongoDB Atlas presenta una gran ayuda al poder desplegar
+ la base de datos y ser accedida desde cualquier lugar, gracias a que se
+ aloja en sus servidores y provee también configuraciones para seguridad
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "MONGOarticle,MONGOwebsite"
+literal "false"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
@@ -1598,7 +1809,12 @@ status open
 \end_layout
 
 \begin_layout Subsubsection
-Heroku
+Flask 
+\end_layout
+
+\begin_layout Standard
+\SpecialChar ligaturebreak
+
 \end_layout
 
 \begin_layout Standard
@@ -1615,41 +1831,52 @@ status open
 \end_layout
 
 \begin_layout Standard
-F
-\end_layout
-
-\begin_layout Standard
-\begin_inset Phantom Phantom
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
+Flask 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "FLASKweb"
+literal "false"
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Subsubsection
-Framework
-\end_layout
-
-\begin_layout Standard
-\begin_inset Phantom Phantom
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
+ es un framework pequeño y ligero, lo suficiente para ser denominado microframew
+ork, para aplicaciones web construido sobre Python, que proporciona un framework
+ eficiente para crear aplicaciones basadas en web utilizando la flexibilidad
+ de Python y un fuerte apoyo de la comunidad con la capacidad de escalar
+ para servir a millones de usuarios 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "FLASKarticle"
+literal "false"
 
 \end_inset
 
+.
+ Flask cuenta con un excelente soporte comunitario, documentación y bibliotecas
+ de apoyo.
+ Para desplegar una API en un servicio como Heroku, es necesario contar
+ con un archivo de configuración que indicará el comando que se ejecutará
+ para poder iniciar la aplicación, este archivo se denomina 
+\emph on
+Procfile 
+\emph default
+y se utiliza Gunicorn 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Gunicorn"
+literal "false"
 
-\end_layout
+\end_inset
 
-\begin_layout Standard
-F
+para poder crear el servidor y ejecutar el script 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "GrinbergFLASK2014"
+literal "false"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
@@ -1670,6 +1897,11 @@ React
 \end_layout
 
 \begin_layout Standard
+\SpecialChar ligaturebreak
+
+\end_layout
+
+\begin_layout Standard
 \begin_inset Phantom Phantom
 status open
 
@@ -1683,7 +1915,31 @@ status open
 \end_layout
 
 \begin_layout Standard
-Axios
+En su sitio web 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "REACTwebsite"
+literal "false"
+
+\end_inset
+
+, se define a React como una biblioteca de JavaScript para construir interfaces
+ de usuario interactivas de forma sencilla.
+ Se utiliza para manejar la capa de visualización en aplicaciones de una
+ sola página y desarrollo de aplicaciones móviles.
+ Es mantenido por Facebook, Instagram y una comunidad de desarrolladores
+ y corporaciones.
+ React se esfuerza por proporcionar velocidad, simplicidad y escalabilidad.
+ Algunas de sus características más notables son JSX, componentes con estado,
+ modelo de objeto de documento virtual 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "REACTarticle"
+literal "false"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
@@ -1700,7 +1956,12 @@ status open
 \end_layout
 
 \begin_layout Subsubsection
-React Native
+React Native 
+\end_layout
+
+\begin_layout Standard
+\SpecialChar ligaturebreak
+
 \end_layout
 
 \begin_layout Standard
@@ -1717,7 +1978,110 @@ status open
 \end_layout
 
 \begin_layout Standard
-F
+React Native 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "REACTNATIVEwebsite"
+literal "false"
+
+\end_inset
+
+ es un framework desarrollado por Facebook, originalmente fue publicado
+ para desarrollar en iOS, después se introdujo el soporte para también poder
+ desarrollar en Android.
+ El propósito principal de React Native es permitirle al programador hacer
+ un solo desarrollo que funcione en ambas plataformas, se ejecuta en JavaScriptC
+ore (iOS) o V8 (Android) dentro de las aplicaciones y se procesa en componentes
+ específicos de la plataforma de nivel superior 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "REACTNATIVEarticle"
+literal "false"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+Expo es una cadena de herramientas construida alrededor de React Native
+ para ayudar a los desarrolladores a comenzar sus proyectos rápidamente.
+ Expo proporciona un conjunto de herramientas y servicios para desarrollar,
+ construir, implementar, probar o incluso ejecutar simuladores en la plataforma
+ específica desde la misma base de código.
+ Específicamente, ofrece una colección de soluciones listas como acelerómetro
+ del dispositivo, cámara, notificaciones, geolocalización, etc.
+ Un punto conveniente al usar Expo es que los desarrolladores no necesitan
+ descargar XCode o Android Studio para ejecutar la aplicación.
+ Pueden ejecutar la aplicación directamente con Expo CLI 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "RNarticle2020"
+literal "false"
+
+\end_inset
+
+s.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Phantom Phantom
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Heroku 
+\end_layout
+
+\begin_layout Standard
+\SpecialChar ligaturebreak
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Phantom Phantom
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Heroku permite implementar, ejecutar y administrar aplicaciones escritas
+ en Ruby, Node.js, Java, Python, Clojure, Scala, Go y PHP.
+ Una aplicación es una colección de código fuente escrito en uno de estos
+ lenguajes, y alguna descripción de dependencia que instruye a un sistema
+ de compilación sobre qué dependencias adicionales se necesitan para compilar
+ y ejecutar la aplicación.
+ Heroku es una plataforma políglota: le permite crear, ejecutar y escalar
+ aplicaciones de manera similar en todos los idiomas, utilizando las dependencia
+s y Procfile.
+ Procfile expone un aspecto arquitectónico de la aplicación y esta arquitectura
+ le permite escalar cada parte de forma independiente.
+ Heroku ejecuta la aplicación dentro de un dyno (contenedor ligero de Linux)
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "HEROKUwebsite"
+literal "false"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
@@ -1750,13 +2114,162 @@ status open
 
 \end_layout
 
+\begin_layout Standard
+A continuación, se presentan algunas investigaciones que se encontraron
+ relacionadas a este proyecto de investigación.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Phantom Phantom
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+CIU TOUR
+\end_layout
+
+\begin_layout Standard
+\SpecialChar ligaturebreak
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Phantom Phantom
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+En una investigación realizada en la Universidad de Valencia, España 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "ciutour2019"
+literal "false"
+
+\end_inset
+
+, se llevó a cabo un proyecto similar a este, donde crearon una aplicación
+ móvil capaz de tomar una foto del entorno (ya sea un edificio o un monumento)
+ en su dispositivo móvil y utilizar un modelo de inteligencia artificial
+ creado con las herramientas provistas por Tensorflow para poder clasificar
+ la imagen si correspondía a un edificio o a un monumento al interior de
+ su campus universitario, además de devolver más información relacionada
+ que pudiera ser de relevancia para el usuario, esto con el fin de poder
+ ayudar a un turista a completer un recorrido por su cuenta en las instalaciones.
+ 
+\end_layout
+
+\begin_layout Standard
+En este trabajo se dio un enfoque a turistas que deseen hacer un tour de
+ manera propia y con una buena precisión acerca de la información visualizada.
+ En su aplicación incluyeron también un mapa de su universidad utilizando
+ Google Maps, además de un menú donde se podía encontrar la información
+ sobre los edificios o monumentos sin necesidad de hacer un reconocimiento
+ mediante una fotografía.
+ También cabe destacar que se realizó pensado en el sistema operativo de
+ Android.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Phantom Phantom
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Building Recognition
+\end_layout
+
+\begin_layout Standard
+\SpecialChar ligaturebreak
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Phantom Phantom
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Otra investigación similar es una realizada en Perú 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "buildingRec"
+literal "false"
+
+\end_inset
+
+, donde recolectaron un total de 2000 imágenes sobre 14 principales monumentos
+ históricos y proponer una topología de red neuronal capaz de lograr un
+ buen rendimiento al clasificar dichas imágenes, entendiendo que la tarea
+ de clasificar este tipo de imágenes presenta un gran reto porque las fotografía
+s pueden ser capturadas desde ángulos distintos, en condiciones climáticas
+ distintas, entre otras cosas.
+ 
+\end_layout
+
+\begin_layout Standard
+Su topología presentó buen rendimiento frente a otras que fueron evaluadas,
+ sin embargo, destacan algunos puntos en donde se pueden enfocar en otros
+ trabajos a futuro como lo son la implementación de más clases y confirmar
+ que su modelo presenta buen rendimiento frente a otros tipos de modelos.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Phantom Phantom
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 DESARROLLO 
 \end_layout
 
 \begin_layout Standard
 Para el desarrollo de este proyecto se dividieron en etapas para tener entregabl
-es del desarrollo de manera controlada.
+es del desarrollo de manera controlada, los tres primeros puntos se explica
+ el desarrollo realizado para la creación del modelo de inteligencia artificial.
+ Posteriormente, los siguientes dos puntos tratan sobre la solución propuesta
+ para el manejo de la información adicional que será entregada al usuario
+ junto con la predicción del modelo.
+ Y por último, la implementación de todo esto en una sola aplicación móvil
 \end_layout
 
 \begin_layout Standard
@@ -1810,10 +2323,14 @@ Recolección de imágenes
 Las imágenes utilizadas son de la fachada de los edificios como las facultades,
  departamentos y otros espacios importantes, esto porque es lo que el usuario
  verá cuando desee saber una predicción del lugar.
- Se hizo la recolección de N imágenes de cada edificio (clase), siendo N
- edificios reconocidos.
- Esto hace un total de N imágenes capturadas para crear el modelo.
- Estas imágenes son fotografías tomadas por un dispositivo móvil (iPhone
+ Se hizo la recolección de 50 imágenes de cada edificio (clase), siendo
+ 8 edificios reconocidos.
+ Esto hace un total de 400 imágenes capturadas para crear el modelo.
+ 
+\end_layout
+
+\begin_layout Standard
+Estas imágenes son fotografías tomadas por un dispositivo móvil (iPhone
  12 Pro Max), esto debido a que el modelo sería utilizado en una aplicación
  móvil y las imágenes con las que sería probado el modelo serían capturadas
  por dispositivos móviles.
@@ -1893,7 +2410,7 @@ Preparación del entorno Python
 \begin_layout Standard
 Para la realización de esta investigación se creó un ambiente de desarrollo
  en Anaconda 1.10.0.
- Junto con esto, se installa la versión 3.7.10 del lenguaje de programación
+ Junto con esto, se instala la versión 3.7.10 del lenguaje de programación
  Python que es utilizada en el desarrollo del código fuente, también la
  versión 2.3.0 de tensorflow que permite la creación de la red neuronal, además
  de instalar TensorflowJS en su versión 3.3.0 para exportar el modelo y ser
@@ -1908,7 +2425,7 @@ Para la realización de esta investigación se creó un ambiente de desarrollo
 El proyecto está estructurado en un directorio, en él se encuentra un archivo
  .ipynb (formato de Jupyter Notebook) con el código que recolecta el dataset,
  diseña la red neuronal y entrena el modelo que posteriormente es exportado.
- En una carpeta al interior del directorio principal se encuentrar las imágenes
+ En una carpeta al interior del directorio principal se encuentran las imágenes
  a utilizar para el entrenamiento del modelo, descrito previamente en el
  apartado 3.1.
  
@@ -1965,7 +2482,11 @@ Para crear la red neuronal se utiliza la estructura Secuencial contenida
  aleatoriamente; posteriormente la siguiente capa cambia de tamaño a la
  imagen para ajustarlo a las dimensiones utilizadas en el experimento (224
  x 224 píxeles).
- A continuación se utiliza una capa convolucional con 16 neuronas, esto
+ 
+\end_layout
+
+\begin_layout Standard
+A continuación, se utiliza una capa convolucional con 16 neuronas, esto
  permite crear un núcleo de convolución con la salida de la capa anterior
  como entrada y obtener un tensor de salidas, en otras palabras, la convolución
  consiste en ir comparando la imagen de entrada con una matriz creada (kernel).
@@ -1973,16 +2494,20 @@ Para crear la red neuronal se utiliza la estructura Secuencial contenida
 \emph on
 (rectified linear activation unit)
 \emph default
-, que básicamente lo que hace esta función es que si recibe cualquier número
- negativo devuelve un 0 y si no, devulve ese número positivo, esto para
- la comparación con el kernel.
+ la cual, cuando recibe una entrada negativa, devuelve 0 y en caso contrario,
+ el mismo valor positivo de la entrada, esto para la comparación con el
+ kernel.
  Pasada la convolución se implementa una capa de 
 \emph on
 Max Pooling 2D 
 \emph default
 para hacer una reducción de las dimensiones de alto y ancho de la salida
  de la capa convolucional anterior, pero no modifica su profundidad.
- Posteriormente, se vuelve a crear otra capa convolucional seguida de una
+ 
+\end_layout
+
+\begin_layout Standard
+Posteriormente, se vuelve a crear otra capa convolucional seguida de una
  capa de 
 \emph on
 max pooling
@@ -1993,7 +2518,7 @@ max pooling
 Dropout 
 \emph default
 para desactivar neuronas aleatorias y evitar que estas neuronas creen dependenci
-a entre sí, ayudando a que las neuronas no dependan entre sí.
+a entre sí.
  Después, se agrega una capa 
 \emph on
 Flatten
@@ -2058,9 +2583,9 @@ Sparse Categorical Crossentropy
 
  
 \emph default
-para poder tratar el valor entre el valor estimado y el valor real, esto
- para optimizar el resultado.
- Además, se usa el optimizador adam para la función del error y el 
+para poder tratar el valor entre el estimado y el real, esto para optimizar
+ el resultado.
+ Además, se usa el optimizador Adam para la función del error y el 
 \emph on
 accuracy
 \emph default
@@ -2114,7 +2639,7 @@ Entrenamiento del modelo
 \begin_layout Standard
 Para el entrenamiento del modelo creado se tomaron los dos grupos de imágenes
  creados, uno de entrenamiento y uno de prueba, además de indicar un total
- de 15 épocas de entrenamiento.
+ de 20 épocas de entrenamiento.
  El objetivo visible durante el entrenamiento debe ser que el 
 \emph on
 accuracy
@@ -2141,9 +2666,11 @@ Exportación
 \end_layout
 
 \begin_layout Standard
-El modelo después de ser entrenado y que ofrezca buen desempeño en su evaluación
-, es exportado con una extensión .h5, esto ayudará a después convertirlo
- a un modelo de TensorflowJS.
+Después de que el modelo es entrenado y que ofrezca buen desempeño en su
+ evaluación, se exporta en dos archivos, el primero de ellos es en formato
+ JSON el cual contiene la estructura del modelo y un archivo .h5 que contiene
+ los pesos del modelo.
+ Estos dos archivos serán utilizados en la sección siguiente.
 \end_layout
 
 \begin_layout Standard
@@ -2160,7 +2687,85 @@ status open
 \end_layout
 
 \begin_layout Subsection
-Desarrollo de un API REST 
+Creación de API REST en FLASK
+\end_layout
+
+\begin_layout Standard
+Para que la aplicación pudiese consumir el modelo de inteligencia artificial,
+ se decidió crear una API que pudiese recibir la imágen y regresar la predicción
+ del modelo.
+ En esta sección se describen los pasos para su creación.
+\end_layout
+
+\begin_layout Standard
+Para poder crear esta API, se utilizó el framework Flask en su versión 1.1.2,
+ con lo cual permitiría tener una conexión con el modelo.
+ En la figura 2 se puede apreciar la estructura del directorio que contiene
+ esta API, es sencillo y consta de los dos archivos exportados del modelo
+ explicados en la sección anterior.
+ En el archivo 
+\emph on
+Procfile 
+\emph default
+se guarda la configuración donde se utiliza gunicorn para crear el servidor
+ HTTP.
+ Y por último el archivo API.py en el que se encuentra el endpoint que es
+ consumido para la predicción, se recibe la imagen en base64 y se realiza
+ la función del modelo que permite obtener un arreglo de las predicciones.
+ De esta predicción numérica se obtiene el máximo valor y se compara con
+ las etiquetas definidas previamente, se retorna en formato JSON el nombre
+ corto del edificio que se predijo para ser utilizada posteriormente en
+ la aplicación.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/API flask.png
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Estructura del API en Flask
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Phantom Phantom
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Desarrollo de un API REST en Node.js
 \end_layout
 
 \begin_layout Standard
@@ -2207,7 +2812,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Estructura del API
+Estructura del API en Node.js
 \end_layout
 
 \end_inset
@@ -2221,8 +2826,9 @@ Estructura del API
 \end_layout
 
 \begin_layout Standard
-En la figura 2 se muestra la manera en como está estructurado el código
- fuente desarrollado para el API, en la carpeta de 
+En la figura 3, se muestra la manera en como está estructurado el código
+ fuente desarrollado para el API.
+ En la carpeta de 
 \emph on
 controllers
 \emph default
@@ -2272,9 +2878,13 @@ Función del servicio
 \begin_layout Standard
 Esta API será utilizada por la aplicación móvil y también por la plataforma
  web, siendo la app la que consumirá más la visualización de la información,
- mientras que la plataforma web será el medio por el cuál pueda ser insertada
+ mientras que la plataforma web será el medio por el cual pueda ser insertada
  nueva información o modificación de la misma.
- Dentro de sus funciones, permite un 
+ 
+\end_layout
+
+\begin_layout Standard
+Dentro de sus funciones, permite un 
 \emph on
 CRUD
 \emph default
@@ -2287,7 +2897,11 @@ completo para las ubicaciónes.
  las ubicaciones disponibles, otro permite una búsqueda específica por el
  id del registro creado y uno último que permite obtener información específica
  que será utilizada para cuando la app prediga sobre algún edificio reconocido.
- También se cuenta la opción de crear, actualizar y eliminar un registro,
+ 
+\end_layout
+
+\begin_layout Standard
+También se cuenta la opción de crear, actualizar y eliminar un registro,
  estos últimos son utilizados en la plataforma web.
  Las respuestas regresadas son el formato JSON, esto permite un buen manejo
  de la información y también es sencillo de utilizar en los frameworks utilizado
@@ -2343,13 +2957,21 @@ Esta aplicación permite la visualización, modificación, eliminación y creaci
  provisto por el API especificada en el punto anterior.
  Se utiliza axios para realizar las llamadas a los endpoints necesitados
  en el manejo de los datos.
- El modelo de las ubicaciones incluye un nombre, un teléfono de contacto,
+ 
+\end_layout
+
+\begin_layout Standard
+El modelo de las ubicaciones incluye un nombre, un teléfono de contacto,
  sitio web en caso de contar con alguno, correo electrónico, el horario
  de atención, una imágen de la fachada y también las coordenadas.
  Toda esta información es la que se maneja y permite dar un plus al usuario
- que desconoce la universidad y quisiera contactarse con algúna facultad
+ que desconoce la universidad y quisiera contactarse con alguna facultad
  o departamento en específico.
- En la pantalla principal mostrada en la Figura 4 se puede apreciar la manera
+ 
+\end_layout
+
+\begin_layout Standard
+En la pantalla principal mostrada en la Figura 3 se puede apreciar la manera
  en cómo se ve la lista de las ubicaciones ya registradas, las funcionalidades
  disponibles están marcadas por los botones de 
 \emph on
@@ -2378,8 +3000,8 @@ borrar
 , además de que al hacer click sobre cada tarjeta se puede ver más información
  sobre ese item.
  También se puede agregar un nuevo registro con el botón en la barra superior.
- Las imágenes no son guardadas en la base de datos, son subidas previamente
- a una carpeta compartida en 
+ Las imágenes no son guardadas en la base de datos, deben ser subidas previament
+e a una carpeta compartida en 
 \emph on
 Google Drive 
 \emph default
@@ -2445,11 +3067,43 @@ Implementación del modelo en la app
 \end_layout
 
 \begin_layout Standard
-\begin_inset Phantom Phantom
+Se utilizó el framework de react native que permite hacer un desarrollo
+ móvil multiplataforma, en dicho framework se accede a los permisos de la
+ cámara del dispositivo para poder tomar la fotografía del lugar y se hacen
+ las llamadas a las dos API's.
+\end_layout
+
+\begin_layout Standard
+En la figura 5 se muestra la estructura sencilla del código de la aplicación
+ móvil utilizando react native.
+ En el archivo CameraView.js se contiene todos los complementos necesarios
+ para la aplicación, este archivo será llamado 
+\emph on
+archivo principal 
+\emph default
+en las siguientes subsecciones.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
 status open
 
 \begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/app.png
 
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Estructura de la aplicación móvil
 \end_layout
 
 \end_inset
@@ -2457,37 +3111,9 @@ status open
 
 \end_layout
 
-\begin_layout Subsubsection
-Preparación del entorno react-native
-\end_layout
-
-\begin_layout Standard
-Se agregó paquetes de tensorflow
-\end_layout
-
-\begin_layout Standard
-Estructura
-\end_layout
-
-\begin_layout Standard
-\begin_inset Phantom Phantom
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
 \end_inset
 
 
-\end_layout
-
-\begin_layout Subsubsection
-Importación del modelo
-\end_layout
-
-\begin_layout Standard
-Cargar el modelo
 \end_layout
 
 \begin_layout Standard
@@ -2508,7 +3134,13 @@ Configuración de la cámara
 \end_layout
 
 \begin_layout Standard
-Creación de la vista para capturar la imagen
+Dentro del archivo principal, se encuentran las validaciones para solicitar
+ permisos al usuario para poder acceder a la cámara del dispositivo.
+ Una vez que los permisos sean otrogados, en la vista será desplegada la
+ imagen que está disponible para capturar.
+ Se utiliza el componente de expo-camera que permite hacer las validaciones
+ previas y la visualización de lo que capta la cámara trasera del dispositivo.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -2529,7 +3161,15 @@ Predicción
 \end_layout
 
 \begin_layout Standard
-Utilizar el modelo y devolver resultado
+Para obtener la predicción del modelo, se realiza una llamada al endpoint
+ en el API que se realizó con Flask y se le envía la imagen capturada y
+ convertida a base64.
+ Esta llamada se realiza utilizando axios y se hace a una url desde donde
+ está corriendo el API.
+ En esta aproximación debido al tamaño del modelo se ejecutó de manera local
+ y se compartió el puerto para poder acceder desde la aplicación.
+ Una vez obtenida la respuesta del modelo, se guarda este resultado en un
+ estado.
 \end_layout
 
 \begin_layout Standard
@@ -2550,28 +3190,14 @@ Despliegue de la información
 \end_layout
 
 \begin_layout Standard
-Retornar información adicional (consulta al API) junto con la predicción.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Phantom Phantom
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsubsection
-Condicionamiento
-\end_layout
-
-\begin_layout Standard
-Bloqueo de la función si no está dentro del área de la universidad
+Después de haber obtenido la respuesta de la predicción realizada por el
+ modelo, se ejecuta otra llamada ahora al API de Node.js que contiene la
+ información detallada del edificio.
+ Dicha llamada se ejecuta también con axios al url donde está desplegada
+ mediante Heroku, donde se accede a un endpoint creado específicamente para
+ devolver solo cierta información y enviando como parámetro la predicción.
+ Una vez realizado este proceso, se despliega en la pantalla la predicción
+ de qué edificio reconoció el modelo y su información adicional.
 \end_layout
 
 \begin_layout Standard
@@ -2592,11 +3218,155 @@ RESULTADOS
 \end_layout
 
 \begin_layout Standard
-Evaluación del modelo
+El modelo realizado utilizando Keras obtuvo buenos resultados en su entrenamient
+o y con sus datos de validación, estos datos son un total de 320 imágenes
+ para entrenar y 80 para validación.
+ En la Tabla 1 se puede observar los resultados que se obtuvieron al final
+ del entrenamiento y en la Figura 6 se muestra la gráfica de los resultados
+ con el paso de las 20 épocas, se puede observar el incremento en el 
+\emph on
+accuracy
+\emph default
+ a medida que pasaban las épocas, mientras que el 
+\emph on
+loss 
+\emph default
+baja.
 \end_layout
 
 \begin_layout Standard
-Interfaces (antes de tomar la imágen, después de la predicción)
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="3">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Métrica
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Entrenamiento
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Validación
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Accuracy
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.92
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.90
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Loss Function
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.21
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.31
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset Phantom Phantom
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Evaluación del modelo tras 20 épocas de entrenamiento
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -2608,7 +3378,56 @@ status open
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename images/metrics.png
-	lyxscale 25
+	lyxscale 40
+	scale 45
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Gráficas de entrenamiento del modelo
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+En la Figura 7 se puede observar una captura de cómo es que se ve implementada
+ la aplicación en un dispositivo móvil, en este caso se hicieron las pruebas
+ en iOS.
+ En la parte superior de la pantalla se puede observar la información que
+ se le es ofrecida al usuario que pudiese ser de interés, en la parte inferior
+ se encuentra un botón de cámara que permite capturar una foto y hacer una
+ predicción, arriba del botón de la cámara se encuentra un espacio blanco
+ donde se muestra el titulo de la predicción del modelo.
+ Se realizaron otras pruebas aparte ya con la aplicación funcionando en
+ el dispositivo, donde clasificó de manera correcta 7 de 10 imágenes con
+ las que fue puesto a prueba.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/prediction.png
+	lyxscale 30
 	scale 40
 
 \end_inset
@@ -2620,7 +3439,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Interfaz principal plataforma web
+Interfaz principal de la aplicación móvil
 \end_layout
 
 \end_inset
@@ -2631,6 +3450,31 @@ Interfaz principal plataforma web
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+El tiempo de respuesta toma entre 3 a 4 segundos, esto debido a que hace
+ dos llamadas a distintas API's.
+ La aproximación de cargar el modelo en una API diferente fue a causa del
+ incremento en el tamaño de la aplicación, debido a que el modelo ocupaba
+ mucho espacio y los objetivos era conseguir tener una aplicación que fuera
+ posible de usar en muchos dispositivos y no requiriera tantos atributos
+ de hardware disponibles.
+ Es por esto que se optó por esta aproximación y se desempeñó de muy buena
+ manera.
+ 
+\end_layout
+
+\begin_layout Standard
+La plataforma desarrollada en React para habilitar a un administrador a
+ registrar nuevas ubicaciones presenta un producto completo en la funcionalidad
+ de crear y visualizar los datos guardados para poder mostrarlos al usuario.
+ La aplicación móvil muestra buen funcionamiento tanto en Android como en
+ iOS, es simple pero cumple con el objetivo buscado donde se pueda predecir
+ un resultado y devolver datos relevantes.
+ Esta aplicación se ejecuta mediante expo, que permite correr esta app sin
+ tener que instalarla previamente con un instalador, permitiendo así ser
+ más sencillo su ejecución en modo de prueba.
 \end_layout
 
 \begin_layout Section
@@ -2638,7 +3482,30 @@ CONCLUSIONES
 \end_layout
 
 \begin_layout Standard
-Content
+Los productos presentados ofrecen una gran ayuda al cumplimiento de los
+ objetivos, debido a que laimplementación de todos sus componentes hacen
+ a la aplicación completa.
+ Se encontró que el modelo presentado ofrece buen rendimiento en su tarea
+ de clasificar las imágenes para identificar al edicio qie se corresponde,
+ además que el uso de expo facilita en gran manera la ejecución de la aplicación
+ en un dispositivo móvil.
+\end_layout
+
+\begin_layout Standard
+Con la finalización de esta investigación, se logró obtener un software
+ capaz de reconocer edificios mediante un modelo de inteligencia artificial.
+ Dicha herramienta presenta grandes oportunidades de continuar con su desarrollo
+, debido a su escalabilidad para ser capaz de reconocer más edificios, devolver
+ más información detallada o implementar nuevos módulos para hacer más completa
+ la aplicación.
+ Se creó una plataforma capaz de almacenar información acerca de lugares
+ en la Universidad, esta información podría ser utilizada en proyectos de
+ realidad aumentada, donde se le proporcione al usuario información acerca
+ de lo que está viendo en todo momento.
+ 
+\end_layout
+
+\begin_layout Standard
 \begin_inset Newpage newpage
 \end_inset
 
